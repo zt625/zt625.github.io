@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>试验3</title>
+	<link rel="stylesheet" href="../script/bootstrap/css/bootstrap.min.css">
+	<style>
+	.modal-content{
+		width: 500px;
+		height: 1000px;
+		background-color: white;
+	}	
+	.modal-content .top-logo{
+		margin-left: 170px;
+		margin-top: 24px;
+	}
+	.modal-dialog .modal-body .modal-content button span{
+		margin-top: 15px;
+		margin-right: 12px;
+	}
+
+	.modal-content .denglu{
+		margin-left: 74px;
+		margin-top: 44px;
+	}
+	.modal-content .denglu .denglu1{
+		width: 352px;
+		height: 48px;
+	}
+	.modal-content .denglu .denglu2{
+		width: 352px;
+		height: 48px;
+		margin-top: 16px;
+	}
+	.modal-content .denglu .denglu3{
+		margin-top: 16px;
+	}
+	.modal-content .denglu .denglu4{
+		margin-top: 21px;
+	}
+	.modal-content .denglu .denglu4-2{
+		float: right;
+		margin-right: 72px;
+	}
+	.modal-content .denglu .denglu4-3{
+		margin-left: 60px;
+		margin-top: -45px;
+	}
+	.modal-body .others{
+	width: 355px;
+	margin-top: 60px;
+	margin-left: 72px;
+	}
+	.modal-body .others div{
+	width: 134px;
+	height: 13px;
+	border-top:1px solid #50bbdb;
+	margin-top:20px;
+	float:left;
+	}
+	.modal-body .others a{
+	display:block;
+	text-decoration:none;
+	color:#cee9f3;
+	float:left;
+	margin-top: 10px;
+	}
+
+
+
+
+	</style>
+</head>
+<body>
+	<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">点击出现</button>
+	<div class="modal fade" id="myModal">
+		<div class="modal-dialog">
+				<div class="modal-body">
+					<div class="modal-content">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<img class="top-logo" src="../images/xiaologo.jpg" alt="">
+				<div class="denglu">
+					<form action="">
+					<input  class="denglu1" id="denglu1-1" type="text" placeholder="邮箱/手机/用户名">
+					<input type="password"  class="denglu2" id="denglu2-1"placeholder="密码">
+					<img class="denglu3" src="../images/denglu.jpg" alt=""><a href="https:baidu.com"></a></img></form>
+					<div class="denglu4">
+					<a href="https:baidu.com" class="denglu4-1">忘记密码</a>
+					<p class="denglu4-2">还没有账号？<a class="denglu4-2-2" href="https：baidu.com">免费注册</a></p>
+					<div class="others">
+						<div class="o1"></div>
+						<a class="otherLoad">其他报名方式</a>
+						<div class="o2"></div>
+					</div>
+					
+					<div class="denglu4-1-1"></div>
+					<img src="../images/budenglu.jpg" alt="" class="denglu4-3">
+				</div>
+				</div>
+			</div>
+				</div>
+				<!-- <div class="modal-footer">
+					<button class="btn btn-default" data-dismiss="modal">Close</button>
+					<button class="btn btn-primary">保存</button>
+				</div> -->
+			</div>
+		</div>
+	</div>
+	<script src="../script/jquery.js"></script>
+	<script src="../script/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

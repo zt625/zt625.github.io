@@ -1,0 +1,90 @@
+.modal-content{
+		width: 500px;
+		height: 1000px;
+		background-color: white;
+	}	
+	.top-logo{
+		margin-left: 170px;
+		margin-top: 24px;
+	}
+	.modal-dialog .modal-body  button span{
+		margin-top: 15px;
+		margin-left: 170px;
+		margin-right: 12px;
+	}
+	.modal-dialog .modal-body .modal-content .zhuce a span{
+		color: #50bbdb;
+		float: right;
+		margin-right: 72px;
+		margin-top: 16px;
+
+	}
+	.modal-dialog .modal-body .denglu1{
+		width: 355px;
+		margin-left: 72px;
+		height: 55px;
+		margin-top: 18px;
+	}
+	.modal-dialog .modal-body .denglu2{
+		width: 355px;
+		height: 55px;
+		margin-left: 72px;
+		margin-top: 13px;
+	}
+	.modal-dialog .modal-body .denglu3{
+		width: 355px;
+		height: 55px;
+		margin-left: 72px;
+		margin-top: 13px;
+	}
+	.modal-dialog .modal-body .denglu4{
+		width: 355px;
+		height: 55px;
+		margin-left: 72px;
+		margin-top: 13px;
+	}
+	.modal-dialog .modal-body .denglu5{
+		width: 355px;
+		height: 55px;
+		margin-left: 72px;
+		margin-top: 13px;
+	}
+	.modal-dialog .modal-body .denglu5-1{
+		margin-top: 29px;
+		margin-left: 73px;
+		float: left;
+		font-size: 12px;
+		color: #999999;
+	}
+	.modal-dialog .modal-body .denglu5-1 span{
+		font-weight: bold;
+		color: #494949;
+	}
+	.modal-dialog .modal-body .denglu5-2{
+		float: right;
+		margin-top: 18px;
+		margin-right: 71px;
+	}
+	.modal-body .others{
+	width: 355px;
+	margin-top: 60px;
+	margin-left: 72px;
+	}
+	.modal-body .others div{
+	width: 134px;
+	height: 13px;
+	border-top:1px solid #50bbdb;
+	margin-top:20px;
+	float:left;
+	}
+	.modal-body .others a{
+	display:block;
+	text-decoration:none;
+	color:#cee9f3;
+	float:left;
+	margin-top: 10px;
+	}
+	.modal-dialog .modal-body .modal-content .footer{
+		margin-left: 136px;
+		margin-top: 115px;
+	}

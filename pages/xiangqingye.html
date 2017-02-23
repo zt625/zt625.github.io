@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="../css/xiangqingye.css">
+	<link rel="stylesheet" href="../css/public.css">
+	<link rel="stylesheet" href="../css/fullcalendar.css">
+	<link rel="stylesheet" href="../css/fullcalendar.print.css" media='print'>
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../script/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/Y-nvip.css">
+	<link rel="stylesheet" href="../css/Y-vip.css">
+	<link rel="stylesheet" href="../css/cyy.css">
+	<link rel="stylesheet" href="../css/cyy2.css">
+</head>
+<body>
+	<div class="modal fade" id="myModal1">
+		<div class="modal-dialog">
+				<div class="modal-body">
+					<div class="modal-content">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<img class="top-logo" src="../images/xiaologo.jpg" alt="">
+				<div class="denglu">
+					<form action="">
+					<input  class="denglu1" id="denglu1-1" type="text" placeholder="邮箱/手机/用户名">
+					<input type="password"  class="denglu2" id="denglu2-1"placeholder="密码">
+					<img class="denglu3" src="../images/denglu.jpg" alt=""><a href="https:baidu.com"></a></img></form>
+					<div class="denglu4">
+					<a href="https:baidu.com" class="denglu4-1">忘记密码</a>
+					<p class="denglu4-2">还没有账号？<a class="denglu4-2-2" href="https：baidu.com">免费注册</a></p>
+					<div class="others1">
+						<div class="o1"></div>
+						<a class="otherLoad">其他报名方式</a>
+						<div class="o2"></div>
+						</div>
+					
+					<div class="footer1">
+						<img src="../images/ksdenglu.jpg" alt="">
+					</div>
+				</div>
+				</div>
+			</div>
+				</div>
+				<!-- <div class="modal-footer">
+					<button class="btn btn-default" data-dismiss="modal">Close</button>
+					<button class="btn btn-primary">保存</button>
+				</div> -->
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="myModal">
+		<div class="modal-dialog">
+				<div class="modal-body">
+					<div class="modal-content">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<img class="top-logo" src="../images/xiaologo.jpg" alt="">
+						<div class="zhuce"><a href=""><span>用手机注册</span></a></div>
+						<input type="text" class="denglu1" placeholder="请输入邮箱">
+						<input type="text" class="denglu2" placeholder="用户名,4-16个字符,字母/中文/数字">
+						<input type="text" class="denglu3" placeholder="设置密码">
+						<input type="text" class="denglu4" placeholder="输入密码">
+						<input type="text" class="denglu5" placeholder="输入邀请码,可不填">
+						<div class="denglu5-1">注册视为同意<span>《爱自驾用户使用协议》</span></div>
+						<div class="denglu5-2"><img src="../images/zhuce.jpg" alt=""></div>
+						<div class="others">
+						<div class="o1"></div>
+						<a class="otherLoad">其他报名方式</a>
+						<div class="o2"></div>
+						</div>
+						<div class="footer"><img src="../images/ksdenglu.jpg" alt="">
+						</div>	
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 开始 -->
+	<div class="header">
+		<div class="head-top">
+			<div class="h-t-inner">
+				<div class="h-t-l">
+					<a href="api.html"><img class="dingwei" src="../images/address.jpg" alt=""></a>
+					<div class="address">
+						<p>北京</p>
+						<span class="lianjie">切换</span>					
+						<ul class="inner-ul">
+							<h5>热搜城市</h5>
+								<li>北京</li>
+								<li>天津</li>
+								<li>河北</li>
+								<li>上海</li>
+								<li>河南</li>
+								<li>山西</li>
+								<li>陕西</li>
+								<li>内蒙</li>			
+						</ul>
+						<script src="../script/jquery.js"></script>
+						<script>
+							$(".inner-ul").hide();
+							$(".lianjie").click(function(){
+								$(".inner-ul").slideToggle(500)
+							})
+							$(".inner-ul li").click(function(){
+								var txt = $(this).text();
+								$(".address p").text(txt)
+
+							})
+						</script>
+					</div>
+					<div class="app">
+						<img class="appi" src="../images/phone.jpg" alt="">
+						<a href="">下载手机APP</a>
+					</div>
+				</div>
+				<div class="h-t-r">
+					<div class="dlfs">
+						<a class="qq" href=""javascript:;" onclick="return window.open('https://graph.qq.com/oauth2.0/authorize?client_id=101044974&amp;response_type=token&amp;scope=all&amp;redirect_uri=http%3A%2F%2Fqzonestyle.gtimg.cn%2Fqzone%2Fopenapi%2Fredirect-1.0.1.html', 'oauth2Login_10800' ,'height=525,width=585, toolbar=no, menubar=no, scrollbars=no, status=no, location=yes, resizable=yes');""><img src="../images/qq.jpg" alt=""></a>
+						<a class="bds_tsina" data-cmd="tsina" href="http://service.weibo.com/share/share.php?url=%E8%87%AA%E5%AE%9A%E4%B9%89%E5%88%86%E4%BA%ABurl%E5%9C%B0%E5%9D%80%230-tsina-1-99248-397232819ff9a47a7b7e80a40613cfe1&title=%E8%87%AA%E5%AE%9A%E4%B9%89%E5%88%86%E4%BA%AB%E5%86%85%E5%AE%B9&appkey=1343713053&pic=%E8%87%AA%E5%AE%9A%E4%B9%89%E5%88%86%E4%BA%AB%E5%9B%BE%E7%89%87&searchPic=true&sudaref=s.share.baidu.com"><img src="../images/web.jpg" alt=""></a>
+					</div>
+					<ul class="caozuo">
+						<button class="login" data-toggle="modal" data-target="#myModal1">登录</button>
+						<button class="sign-up" data-toggle="modal" data-target="#myModal">注册</button>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="head-bot">
+			<div class="h-b-inner">
+				<div class="logo">
+					<img src="../images/logo.jpg" alt="">
+				</div>
+				<div class="h-b-r">
+					<ul class="liebiao">
+						<li><a href="../index.html">首页</a></li>
+						<li><a href="WZQ-index2.html">目的地</a></li>
+						<li><a href="ZM-indexjnlby.html">线路</a></li>
+						<li><a href="REN-index2.html">订制</a></li>
+						<li><a class="zjt" href="ZM-indexjnlby.html">自驾团</a></li>
+						<li><a href="#">摄影</a></li>
+						<li><a href="ZM-index.html">互动</a></li>
+						<li><a href="WZQ-index1.html">精选</a></li>
+						<li><a href="WZQ-index.html">预订</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="box-top"></div>
+	<!-- 、、、、、、、、 -->
+	<div class="container">
+		<div class="container-inner">
+			<div class="fenxiang">
+				<p>分享</p>
+				<div class="fenpic"><img src="../images/fen1.jpg" alt=""></div>
+				<div class="fenpic"><img src="../images/fen2.jpg" alt=""></div>
+				<div class="fenpic"><img src="../images/fen3.jpg" alt=""></div>
+				<div class="fenpic"><img src="../images/fen4.jpg" alt=""></div>
+			</div>
+			<div class="con-top">
+				<div class="con-top-a">
+					<a href="">首页</a><span> ></span>
+					<a href="">自驾团</a><span> ></span>
+					<a href="">自驾团境内</a>
+				</div>
+				<!-- //////// -->
+						<div class="share">
+					<div class="share-inner clearfix">
+		
+			<div class="left">
+				<div class="pic">
+					<img src="../images/share-turnpic.jpg" alt="">
+					<img src="../images/share-turnpic2.jpg" alt="">
+					<img src="../images/share-turnpic3.jpg" alt="">
+					<img src="../images/share-turnpic4.jpg" alt="">
+				</div>
+				<div class="list clearfix">
+					<div class="pre">
+						<img src="../images/share-pre.png" alt="">
+					</div>
+					<ul class="listpic clearfix">
+						<li><img src="../images/share-turnpic.jpg" alt=""></li>
+						<li><img src="../images/share-turnpic2.jpg" alt=""></li>
+						<li><img src="../images/share-turnpic3.jpg" alt=""></li>
+						<li><img src="../images/share-turnpic4.jpg" alt=""></li>
+					</ul>
+					<div class="next">
+						<img src="../images/share-next.png" alt="">
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+	</div>
+				<!-- //////////////////// -->
+				<div class="con-top-le">
+					<div class="top-le-exp">
+						<h1>云南落地自驾行摄之旅</h1>
+						<p class="exp1"> 大地之画东川红土地，光与影精美搭配的元阳梯田，一个摄影穿 越的天堂……</p>
+						<p class="exp2">大地的调色板东川红土,被称为光与影精美搭配的元阳梯田;这些地方,见过便终生难忘,那瑰丽的色彩,那历经亿万年的修炼，那亘古不变的华丽,灼痛了世人的双眼,最美的季节记录最美的影像,探寻最美的风景……</p>
+						<p class="exp3">这是一次记录大地色彩之美的摄影旅行。</p>
+						<p class="exp4">这是享誉摄影世界的世界级摄影旅行目的地,这是没有都市的喧嚣与烦躁,没有钢筋森林给人带来的种种压抑;这里是放飞心灵的地方,也是您涤荡心灵的梦幻旅程。</p>
+					</div>
+					<div class="zijia">
+						<p class="zijia-p1">爱自驾价：<span class="zijia-p1-sp1">￥</span><span class="zijia-p1-sp2">4580</span><span class="zijia-p1-sp1">起</span></p>
+						<div class="baoming">
+							<p>我要报名</p>
+						</div>
+						<div class="zan-pic">
+							<img src="../images/zan.jpg" alt=""  class="zan-zan">
+						</div>
+						<p class="shoucang">收藏</p>
+					</div>
+					<div class="dan">
+						<form action="">
+							<div class="dan-date">
+								<label for="">出游日期:</label>
+								<select>
+									<option value=""label="请选择出发日期"></option>
+								</select>
+							</div>
+							<div class="dan-city">
+								<label for="">出发城市:</label>
+								<input type="text" placeholder="北京">
+							</div>
+							<div class="dan-num">
+								<div class="renshu">出游人数：</div>
+								<div class="num-1">
+									<ul>
+										<li class="btns">-</li>
+										<li class="btnn">0</li>
+										<li class="btna">+</li>
+									</ul>
+								</div>
+								<div class="bigp">
+									<p>成人</p>
+								</div>
+								<div class="num-2">
+									<ul>
+										<li class="btnss">-</li>
+										<li class="btnnn">0</li>
+										<li class="btnaa">+</li>
+									</ul>
+								</div>
+								<script src="../script/jquery.js"></script>
+									<script>
+										$(".btns").click(function(){
+											var  num = Number($(".btnn").val());
+											if(num > 0){
+												$(".btnn").val(--num);
+											}
+											var  num2 = Number($(".btnn").val());
+											$(".btnn").text(num2)
+											});
+
+										$(".btna").click(function(){
+											var  num = Number($(".btnn").val());
+											$(".btnn").val(++num);
+											var  num1 = Number($(".btnn").val());
+											$(".btnn").text(num1)
+										});
+										$(".btnss").click(function(){
+											var  num = Number($(".btnnn").val());
+											if(num > 0){
+												$(".btnnn").val(--num);
+											}
+											var  num2 = Number($(".btnnn").val());
+											$(".btnnn").text(num2)
+											});
+
+										$(".btnaa").click(function(){
+											var  num = Number($(".btnnn").val());
+											$(".btnnn").val(++num);
+											var  num1 = Number($(".btnnn").val());
+											$(".btnnn").text(num1)
+										});
+									</script>
+								<div class="bigp">
+									<p>儿童</p>
+								</div>
+								<div class="biao">
+									<p>儿童标准</p>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="gaiyao">
+						<p><span>行程概要</span>：昆明—建水—元阳—元江—玉溪—东川—昆明</p>
+						<div class="xiangqing">
+							<a href="">详情>></a>
+						</div>
+					</div>
+					<div class="dingzhi">
+						<div class="dingzhi-pic">
+							<img src="../images/dingzhi.jpg" alt="">
+						</div>
+						<p>量身定制 专属行程 独立包团</p>
+					</div>
+				</div>
+				<!-- <div class="pic-bo">
+					<div class="bo-left">
+						<img src="../images/bo-left.jpg" alt="">
+					</div>
+					<div class="bo-right">
+						<img src="../images/bo-right.jpg" alt="">
+					</div>
+					<div class="bo-box">
+						<ul class="bo-list">
+							<li><img src="../images/bo-1.jpg" alt=""></li>
+							<li><img src="../images/bo-2.jpg" alt=""></li>
+							<li><img src="../images/bo-3.jpg" alt=""></li>
+							<li><img src="../images/bo-4.jpg" alt=""></li>
+						</ul>
+					</div>
+				</div> -->
+				<div id="calendar"></div>
+			</div>
+
+
+			<!-- ///////////// -->
+			<div class="lingdui">
+				<h1>领队介绍</h1>
+				<div class="lianmeng">
+					<div class="erha">
+						<img src="../images/lianmeng.jpg" alt="">
+						<div class="erha-p">
+							<p class="p1">中国自驾游联盟南京</p>
+							<p class="p2">站</p>
+						</div>
+					</div>
+					<div class="meng-jian">
+						<p> 自2005年开始，南京首家专业自驾车旅游公司——“中国自驾游联盟”，本着以城市为中心，以旅行社为龙头，以自驾游自 助游为纽带的发展宗旨，通过强劲发展，现已覆盖全国20个省200多个城市，总部设在南京，在“专业保障，旅行保险，特色活动，媒体支撑”的指导思想指引下，平均年组织车友实施自驾旅游活动百余次，参加人员达到数万人！近年来，我们策划与服务的自驾游车队达400余个，参加车辆 超过2000辆，参加的车友近十万多人次！我们的行程遍布华南、华中、华北、西南、西北20余省、区，并多次成功举办主题自驾活动，同时在尝试开辟国外自驾游市场，引导及推动着中国自驾游的方向与潮流，赢得了广大媒体与各路车会的关注与信任，成为本地区自驾游最具活力、最具经验、最具规模、最具口碑的专业机构。</p>
+					</div>
+				</div>
+			</div>
+			<!-- ///// -->
+			<div class="zutuan">
+				<h1>历史组团</h1>
+				<div class="zutuan-lun">
+					<div class="lun-inner">
+						<div class="inner-left">
+							<img src="../images/zu-left.jpg" alt="">
+						</div>
+						<div class="inner-box">
+							<ul>
+								<li>
+									<img src="../images/zu-p1.jpg" alt="">
+									<div class="box-p">
+										<p>海天佛国 普陀 山祈福之旅</p>
+										<p class="box-p2">2015-01-03</p>
+									</div>
+								</li>
+								<li>
+									<img src="../images/zu-p2.jpg" alt="">
+									<div class="box-p">
+										<p>冰雪呼伦贝尔  冬季那达慕自驾</p>
+										<p class="box-p3">2015-12-30</p>
+									</div>
+								</li>
+								<li>
+									<img src="../images/zu-p3.jpg" alt="">
+									<div class="box-p">
+										<p>食在广东 粤菜 美食自驾之旅  </p>
+										<p class="box-p2">2015-12-29</p>
+									</div>
+								</li>
+								<li>
+									<img src="../images/zu-p4.jpg" alt="">
+									<div class="box-p">
+										<p>彩云之南 边关 秘境</p>
+										<p class="box-p2">2016-01-03</p>
+									</div>
+								</li>
+								<li>
+									<img src="../images/zu-p4.jpg" alt="">
+									<div class="box-p">
+										<p>彩云之南 边关 秘境</p>
+										<p class="box-p2">2016-01-03</p>
+									</div>
+								</li>
+								<li>
+									<img src="../images/zu-p4.jpg" alt="">
+									<div class="box-p">
+										<p>彩云之南 边关 秘境</p>
+										<p class="box-p2">2016-01-03</p>
+									</div>
+								</li>
+								<li>
+									<img src="../images/zu-p1.jpg" alt="">
+									<div class="box-p">
+										<p>海天佛国 普陀 山祈福之旅</p>
+										<p class="box-p2">2015-01-03</p>
+									</div>
+								</li>
+								<li>
+									<img src="../images/zu-p2.jpg" alt="">
+									<div class="box-p">
+										<p>冰雪呼伦贝尔  冬季那达慕自驾</p>
+										<p class="box-p3">2015-12-30</p>
+									</div>
+								</li>
+								<li>
+									<img src="../images/zu-p1.jpg" alt="">
+									<div class="box-p">
+										<p>海天佛国 普陀 山祈福之旅</p>
+										<p class="box-p2">2015-01-03</p>
+									</div>
+								</li>
+								<li>
+									<img src="../images/zu-p2.jpg" alt="">
+									<div class="box-p">
+										<p>冰雪呼伦贝尔  冬季那达慕自驾</p>
+										<p class="box-p3">2015-12-30</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<script type="text/javascript">
+							var n = 0;
+							function fun(){
+								var marLeft = n * -241;
+								$(".inner-box ul").animate({
+									marginLeft:marLeft
+								},500);
+								n++;
+								//三目运算符，条件运算符
+								n = n == 2? 0 : n;
+							}
+							setInterval(fun,3000);
+							$(".inner-left").click(function(){
+								n++;
+								var marginLeft=n*-241;
+								$(".inner-box ul").animate({marginLeft:marginLeft},500)
+							})
+							$(".inner-right").click(function(){
+								n++;
+								var marginRight=n*-241;
+								$(".inner-box ul").animate({marginRight:marginRight},500)
+							})
+						</script>
+						<div class="inner-right">
+							<img src="../images/zu-right.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- //// -->
+			<div class="main">
+				<div class="main-nav">
+					<ul class="nav-list">
+						<a href="#hangcheng"><li class="nav-bor">行程简介</li></a>
+						<a href="#feiyong"><li>费用明细</li></a>
+						<a href="#shuoming"><li>其他说明</li></a>
+						<a href="#pinglun"><li>用户评论</li></a>
+					</ul>
+					<script src="../script/jquery.js"></script>
+					<script>
+						var height =$(window).height();
+						$(window).scroll(function(){
+							if($(window).scrollTop()>height * 2){
+								$(".nav-list").css("position","fixed").css("top","120px").css("background-color","white")
+							}else{
+								$(".nav-list").css("position","absolute").css("top","1370px")
+							}
+						})
+					</script>
+				</div>
+				<div class="main-content">
+					<div class="hangjian" id="hangcheng">
+						<div class="hang-img">
+							<img src="../images/hangcheng.jpg" alt="">
+						</div>
+						<div class="hang-line">
+							<ul id="dateul">
+								<li><a href="#con-se-w1">第一天</a></li>
+								<li><a href="#con-se-w2">第二天</a></li>
+								<li><a href="">第三天</a></li>
+								<li><a href="">第四天</a></li>
+								<li><a href="">第五天</a></li>
+								<li><a href="">第六天</a></li>
+								<li><a href="">第七天</a></li>
+							</ul>
+						</div>
+						<script type="text/javascript">
+							var height =$(window).height();
+							$(window).scroll(function(){
+								if($(window).scrollTop()>height * 2){
+									$("#dateul").css("position","fixed").css("top","140px")
+								}else if($(window).scrollTop()>height * 2){
+									$("#dateul").css("position","absolute").css("top","1470px")
+								}else{
+									$("#dateul").css("position","absolute").css("top","1470px")
+								}
+							})
+						</script>
+						<div class="hangjian-con">
+							<div class="con-se">
+								<h1 id="con-se-w1">第二天</h1>
+								<div class="con-se-in">
+									<h2>昆明—建水</h2>
+									<div class="con-se-inner">
+										<div class="con-se-inner-h">
+											<p class="h-p1">餐食：早餐、晚餐</p>
+											<p class="h-p2">住宿：建水</p>
+										</div>
+										<div class="inner-wen">
+											<p>酒店早餐后，前往由传统的汉族青砖四合院、彝族土掌房和汉彝结合的瓦檐土掌房三类建筑风格结合的民居世界——团山民居，团山至今还保存着的完整古村落整体格局，有着滇南乡村特色风貌与传统社会人文环境的原生态特色，世界罕见，极为珍贵。到达建水县城后，前往参观朱家花园，有一组规模庞大的清代居民建筑，有“滇南大观园”之誉！房间内的床、凳、桌、椅均采用紫木雕刻，体现清代风格，门童及导游小姐的服饰和接待客人的清代礼仪，让人有恍若置身百年前历史生活的感。</p>
+										</div>
+										<img src="../images/innerp1.jpg" alt="" class="innerp1">
+										<img src="../images/innerp2.jpg" alt="" class="innerp2">
+									</div>
+									
+								</div>
+							</div>
+							<!-- //// -->
+							<div class="con-se">
+								<h1 id="con-se-w2">第二天</h1>
+								<div class="con-se-in">
+									<h2>昆明—建水</h2>
+									<div class="con-se-inner">
+										<div class="con-se-inner-h">
+											<p class="h-p1">餐食：早餐、晚餐</p>
+											<p class="h-p2">住宿：建水</p>
+										</div>
+										<div class="inner-wen">
+											<p>酒店早餐后，前往由传统的汉族青砖四合院、彝族土掌房和汉彝结合的瓦檐土掌房三类建筑风格结合的民居世界——团山民居，团山至今还保存着的完整古村落整体格局，有着滇南乡村特色风貌与传统社会人文环境的原生态特色，世界罕见，极为珍贵。到达建水县城后，前往参观朱家花园，有一组规模庞大的清代居民建筑，有“滇南大观园”之誉！房间内的床、凳、桌、椅均采用紫木雕刻，体现清代风格，门童及导游小姐的服饰和接待客人的清代礼仪，让人有恍若置身百年前历史生活的感。</p>
+										</div>
+										<img src="../images/innerp1.jpg" alt="" class="innerp1">
+										<img src="../images/innerp2.jpg" alt="" class="innerp2">
+									</div>
+									
+								</div>
+							</div>
+							<!-- /////////// -->
+						</div>
+					</div>
+				<!-- /////////////// -->
+				<div class="feiyong" id="feiyong">
+					<div>
+						<img src="../images/feiyong.jpg" alt="">
+					</div>
+					<div class="feiyong-p1">
+						<p class="feiyongp1">【活动费用】4580元/人</p>
+						<p>【VIP会员价】4500元/人</p>
+						<p>【儿童费用】2500元/人（1.1米-1.4米不占床）</p>
+					</div>	
+					<div class="feiyong-p2">
+						<h3>【费用包含】</h3>
+						<ul>
+							<li>1、交通：起亚狮跑或现代IX35（4人1车，1000元/人，如不足4人1车，需补车费）</li>
+							<li>2、通讯：通讯设备，车标，<车队出行的后勤服务>组织费用</li>
+							<li>3、用餐：6早6晚，（晚餐60元/人）</li>
+							<li>4、住宿：建水住五星标准；昆明，元阳，玉溪住四星标准；东川红地住三星标准</li>
+							<li>5、保险：太平洋旅游意外险</li>
+							<li>6、领队：优秀领队及当地导游服务</li>
+							<li>7、景点：建水朱家花园，团山居民，元阳梯田，红河那若梯田，东川红地</li>
+						</ul>
+					</div>
+					<div class="feiyong-p3">
+						<h3>【费用不含】</h3>
+						<ul>
+							<li>1、请自理各地往返昆明机票自理</li>
+							<li>2、全程中餐自理，不占床位早餐</li>
+							<li>3、车辆的油费，过桥费，停车费用</li>
+							<li>4、全程用餐过程中客人所有的酒水费用</li>
+							<li>5、酒店电话费，洗衣费，购物等个人消费</li>
+						</ul>
+					</div>
+				</div>
+			<!-- ////////////////// -->
+			<div class="shuoming" id="shuoming">
+				<div>
+					<img src="../images/shuoming.jpg" alt="">
+					<h3>【活动时间】</h3>
+					<p>2015年12月27日—2016年1月2日</p>
+					<h3>【租车说明】</h3>
+					<p>1、本行程车辆是由组织方向当地租车公司代租；租车费用由组织方 承担 。基本车型：起亚狮跑；车型升级需增加车费。</p>
+					<p>2、租车流程：</p>
+					<p>a.拿车手续</p>
+					<p>驾车人需带齐本人身份证、驾驶证和信用卡壹张，凭上述证件办理租用手续；信用卡额度不得低于10000元人民币，租车的时候需刷8000元的预授权（神州租车规定）。</p>
+					<p>b.归还所租车辆，办理还车手续后，即解除8000元预授权。</p>
+					<p>c.交通违章的处罚，还车时需要刷2000元的违章预授权；作为交通违章押金，在还车之后一个月内无违章的情况下自动解除冻结；如有违章，驾车人自行处理违章并通知租车公司后，则解除2000元的预授权；或者请租车公司代为办理违章，费用从2000元预授权中扣除，剩余的部分则解除预授。</p>
+					<p>d.行车所产生的油费路桥费包含 停车费均由车上客人均摊，另有约定的除外。</p>
+					<h3>注意事项</h3>
+					<p>1、提前做好汽车检查和保养。提前准备好随车工具、备胎、润滑油等，检查户外装备是否齐全。遇旅途 中出现意外事故，承办方有义务和责任为客人协助解决相关问题，但不负事故责任和经济赔偿，如产生赔偿将按保险公司规定赔偿。如遇人力不可抗拒因素所产生的费用由客人自理，如塌方、自然灾害等。</p>
+					<p>2、游客必须身体健康，旅行中应遵守纪律，发扬团结互助的精神，必须听从领队劝说不可擅自行动，否则后果自负。</p>
+					<p>3、请自备好照相机、交卷、防晒霜、爱好摄影、注意照看相关器材。</p>
+					<p>4、自驾车请保持在高速路上得车距，行车中望车主自觉遵守相关交通规则，不随意超车，严禁在弯道处停车、听从领队安排协调。</p>
+					<p>5、长时间在户外活动，请带上太阳镜，涂抹防晒霜以护皮肤，爱护环境，安全第一，全部垃圾带出景区。</p>
+				</div>
+			</div>
+			<!-- ////////////////////// -->
+			<div class="pinglun" id="pinglun">
+				<div>
+					<img src="../images/pinglun.jpg" alt="">
+				</div>
+				<div class="pinglun-top">
+					<div class="all">
+						<p>全部点评（15）</p>
+					</div>
+					<div class="all-p">
+						<p>综合评价：</p>
+						<img src="../images/bigstar.jpg" alt="">
+					</div>
+				</div>
+				<div class="ping1">
+					<div class="ye-box">
+						<div class="ye">
+						<img src="../images/ye.jpg" alt="">
+						</div>
+						<p class="num">E29****329</p>
+					</div>
+					
+					<div class="ping1-in">
+						<div class="ping1-in-p">
+							<p>行程安排：满意<span>|</span>住宿餐食：满意<span>|</span>旅行交通：满意<span>|</span>综合评价:</p>
+							<div class="ping1-in-img">
+								<img src="../images/smallstar.jpg" alt="">
+							</div>
+						</div>
+						<div class="appr1">
+							<p class="appr1-p"> 18号就结束行程了，现在才来评价，总的来说还是不错的.</p>
+						</div>
+						<div class="appr-i">
+							<img src="../images/appr-i1.jpg" alt="">
+							<img src="../images/appr-i2.jpg" alt="">
+						</div>
+						<p class="appr1-date">2015-12-22 14:12<span>来自：爱自驾电脑版</span></p>
+					</div>
+				</div>
+				<!-- /// -->
+				<div class="ping1 ping2">
+					<div class="ye-box">
+						<div class="ye">
+						<img src="../images/ye.jpg" alt="">
+						</div>
+						<p class="num">E29****329</p>
+					</div>
+					
+					<div class="ping1-in ping2-in">
+						<div class="ping1-in-p">
+							<p>行程安排：满意<span>|</span>住宿餐食：满意<span>|</span>旅行交通：满意<span>|</span>综合评价:</p>
+							<div class="ping1-in-img">
+								<img src="../images/smallstar.jpg" alt="">
+							</div>
+						</div>
+						<div class="appr1">
+							<p class="appr1-p"> 总体评论给90分！双十一活动的时候定的，价格很便宜，还会担心会不会住宿太偏僻。结果还好，第一天在水原这个地方，房间是 公寓。周围很多小商店喝酒吧，可以不用非要在第一天行程的汗蒸那里吃饭，这点给大家建议，后三晚在加阳的怀旧酒店。还可以了，相对于这个价格不用太刻意挑剔。周围吃饭的非常方便。去明洞和北屋打车都要10000-14000的价钱。周围有地铁，我们基本是早上地铁出，晚上打车回。</p>
+						</div>
+						<ul class="appr2-p2">
+							<li>行程安排：<span>行程安排总体满意，第二天的购物关键的重点在于华克山庄，只有60分钟，那里虽然小折扣真的便宜。娇韵诗免税基</span><p>础又七折。我们基本是靠抢回来，时间太紧张。乐天和新罗其实在网上买更方便省的大包小包的拎着。直接去机场取，还有积分抵现使用。我订了1500人民币的东西，抵掉400多。乐天世界很好玩。可惜时间段。保存体力到最后再战斗，才是王道。</p></li>
+							<li>住宿餐食：<span>住宿第一天在水源（偏僻些），后三天在加阳怀旧酒店。周围有地铁加阳站，打车到明洞一万多点。还可以。周围吃饭</span><p>的多，很方便。</p></li>
+							<li>旅途交通：<span>交通基本我们是早晨地铁出晚上打车回。首尔打车还可以把，不太堵。</span></li>
+						</ul>
+						<div class="appr-i">
+							<img src="../images/appr-i1.jpg" alt="">
+							<img src="../images/appr-i2.jpg" alt="">
+						</div>
+						<p class="appr1-date">2015-12-22 14:12<span>来自：爱自驾电脑版</span></p>
+						<ul class="appr2-p3">
+							<li>爱自驾客服回复：<p>尊敬的爱自驾会员，给你立减400这个订单之后，此特惠房型实际您成功预订的此客栈只收了您75元/晚， 您可以仔细对比下的，感谢您对爱自驾网的关注与支持，欢迎您下次预订4007-999-999，谢谢!祝您愉快！</p><p>(2015-12-11 13:23:56)</p></li>
+						</ul>
+					</div>
+				</div>
+				<!-- /////////// -->
+				<div class="ping1">
+					<div class="ye-box">
+						<div class="ye">
+						<img src="../images/ye.jpg" alt="">
+						</div>
+						<p class="num">E29****329</p>
+					</div>
+					
+					<div class="ping1-in">
+						<div class="ping1-in-p">
+							<p>行程安排：满意<span>|</span>住宿餐食：满意<span>|</span>旅行交通：满意<span>|</span>综合评价:</p>
+							<div class="ping1-in-img">
+								<img src="../images/smallstar.jpg" alt="">
+							</div>
+						</div>
+						<div class="appr1">
+							<p class="appr1-p"> 18号就结束行程了，现在才来评价，总的来说还是不错的.</p>
+						</div>
+						<ul class="appr3-p4">
+							<li>行程安排：<span>很好</span></li>
+							<li>住宿餐食：<span>很好</span></li>
+							<li>旅行交通：<span>很好</span></li>
+						</ul>
+						<p class="appr1-date">2015-12-22 14:12<span>来自：爱自驾电脑版</span></p>
+					</div>
+				</div>
+			</div>
+			<!-- //////// -->
+				<div class="min-down">
+					<a href="">查看全部点评>></a>
+					<div class="btn-true min-btn hov"><p>确定</p></div>
+					<div class="btn-ye"><p>页</p></div>
+					<div class="min-btn"><input type="text"></div>
+					<div class="btn-ye"><p>到</p></div>
+					<div class="btn-right min-btn"><p>下一页</p><img src="../images/btn-r.jpg" alt=""></div>
+					<div class="btn-4 min-btn hov"><p>4</p></div>
+					<div class="btn-3 min-btn hov"><p>3</p></div>
+					<div class="btn-2 min-btn hov"><p>2</p></div>
+					<div class="btn-1 min-btn hov"><p>1</p></div>
+					<div class="btn-left min-btn"><img src="../images/btn-l.jpg" alt=""></div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 、、、、、 -->
+	<div class="footer">
+		<div class="foot-top">
+			<div class="f-t-inner">
+				<ul class="contact">
+					<li><a href="">人民交通出版社</a></li>
+					<li><a href="">爱自驾</a></li>
+					<li><a href="">联系我们</a></li>
+					<li><a href="">友情链接</a></li>
+					<li><a href="">爱自驾品牌店</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div class="foot-bot">
+			<div class="f-b-inner">
+				<p>人民交通出版社股份有限公司&nbsp&nbsp京ICP备I5018898号-1</p>
+			</div>
+		</div>
+	</div>
+	<script src="../script/jquery.js"></script>
+	<script src="../script/moment.min.js"></script>
+	<script src="../script/jquery.min.js"></script>
+	<script src="../script/fullcalendar.js"></script>
+	<script src="../script/bootstrap/js/bootstrap.min.js"></script>	
+	<script src="../script/jquery.cycle.all.js"></script>
+    <script src="../script/cyy.js"></script>
+	<script>
+		$(".zan-zan").click(function(){
+			var src=$(this).attr("src");
+			var result=(src==="../images/zan.jpg");
+			if (result) {
+				$(this).attr("src","../images/redzan.jpg")
+				$(".shoucang").text("已收藏")
+			}else{
+				$(this).attr("src","../images/zan.jpg")
+				$(".shoucang").text("收藏")
+			}
+		})
+		$(document).ready(function() {
+
+			$('#calendar').fullCalendar({
+				// defaultDate: '2016-04-12',
+				editable: true,
+				eventLimit: true,
+				header: {
+					left: 'prev',
+					center: 'title',
+					right: 'next,',
+				},
+				events: [
+				{
+					title: 'Repea',
+					start: '2016-04-16T16:00:00'
+				},
+				{
+					title: 'Confe',
+					start: '2016-04-11',
+					// end: '2016-04-13'
+				},
+				{
+					title: 'Birthday',
+					start: '2016-04-20T07:00:00'
+				},
+				{
+					title: '活动结束',
+					start: '2016-04-28'
+				}
+			],
+				dayClick: function() {
+	        alert('a day has been clicked!');
+		    },
+			// 	// buttonIcons:false,
+			// 	//today,month,agendaWeek,agendaDay
+			// 	// weekends: false,隐藏周末
+			});
+			var myEvent = ['2016-04-23','2016-04-26'];
+			// console.log(myEvent[0]);
+			for (var i = 0; i < myEvent.length; i++) {
+				var mySelector = '.fc-widget-content.fc-future' + '[data-date="' + myEvent[i] + '"]';
+				$(mySelector).css('position', 'relative').append('<img src="images/jian-logo.png" class="jian-logo">').append('<span class="time-atonce">实时</span>');
+			}
+		
+			// console.log($('.fc-today'));这个显示today的问题解决了，在5188行，搜索‘自己修改’
+			function setWeek() {    //修改week显示函数
+				$('.fc-day-header.fc-sun').text('日');
+				$('.fc-day-header.fc-mon').text('一');
+				$('.fc-day-header.fc-tue').text('二');
+				$('.fc-day-header.fc-wed').text('三');
+				$('.fc-day-header.fc-thu').text('四');
+				$('.fc-day-header.fc-fri').text('五');
+				$('.fc-day-header.fc-sat').text('六');
+			}
+			setWeek();
+			$('.fc-prev-button,.fc-next-button').click(function() {
+				setWeek();
+			});
+
+			function setTitle() {  //修改标题显示问题
+				var myMonthName = ['一月份','二月份','三月份','四月份','五月份','六月份','七月份','八月份','九月份','十月份','十一月份','十二月份'];
+				var myMonth = new Date();
+				var myMonthNum = Number(myMonth.getMonth());
+				var myYearNum = Number(myMonth.getFullYear());
+				// console.log(myYearNum);
+				$('.fc-center h2').text(myMonthName[myMonthNum] + myYearNum);
+				$('.fc-prev-button').click(function() {
+					if (myMonthNum > 0) {
+						myMonthNum --;
+						$('.fc-center h2').text(myMonthName[myMonthNum] + myYearNum);
+					} else {
+						myMonthNum = 11;
+						myYearNum --;
+						$('.fc-center h2').text(myMonthName[myMonthNum] + myYearNum);
+					}
+				});
+				$('.fc-next-button').click(function() {
+					if (myMonthNum > 10) {
+						myMonthNum = 0;
+						myYearNum ++;
+						$('.fc-center h2').text(myMonthName[myMonthNum] + myYearNum);
+					} else {
+						myMonthNum ++;
+						$('.fc-center h2').text(myMonthName[myMonthNum] + myYearNum);
+					}
+				});
+			}
+			setTitle();
+
+		});
+	</script>
+	<script type="text/javascript">
+		window._bd_share_config = {
+		common : {
+			bdText : '自定义分享内容',	
+			bdDesc : '自定义分享摘要',	
+			bdUrl : '自定义分享url地址', 	
+			bdPic : '自定义分享图片'
+		},
+		share : [{
+			"bdSize" : 16
+		}],
+		slide : [{	   
+			bdImg : 0,
+			bdPos : "right",
+			bdTop : 100
+		}],
+		image : [{
+			viewType : 'list',
+			viewPos : 'top',
+			viewColor : 'black',
+			viewSize : '16',
+			viewList : ['tsina']
+		}],
+	}
+	with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
+	</script>
+</body>
+</html>

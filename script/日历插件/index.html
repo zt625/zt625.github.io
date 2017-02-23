@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+<title>原生JS英文时间日期插件 Pikaday.js - 素材家园（www.sucaijiayuan.com）</title>
+<link rel="stylesheet" href="css/pikaday.css">
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+<center>
+<br/><br/><br/>
+
+<input type="text" id="datepicker">
+</center>
+<br/><br/><br/>
+<div class="demo-container">
+	
+   
+</div>
+<script src="js/pikaday.js"></script> 
+<script>
+
+    var picker = new Pikaday(
+    {
+        field: document.getElementById('datepicker'),
+        firstDay: 1,
+        minDate: new Date('2000-01-01'),
+        maxDate: new Date('2020-12-31'),
+        yearRange: [2000,2020]
+    });
+
+    </script>
+</body>
+</html>

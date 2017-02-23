@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="../css/WZQ-index.css">
+	<link rel="stylesheet" type="text/css" href="../css/public.css">
+	<link rel="stylesheet" href="../script/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/Y-nvip.css">
+	<link rel="stylesheet" href="../css/Y-vip.css">
+</head>
+<body>
+	<div class="modal fade" id="myModal1">
+		<div class="modal-dialog">
+				<div class="modal-body">
+					<div class="modal-content">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<img class="top-logo" src="../images/xiaologo.jpg" alt="">
+				<div class="denglu">
+					<form action="">
+					<input  class="denglu1" id="denglu1-1" type="text" placeholder="邮箱/手机/用户名">
+					<input type="password"  class="denglu2" id="denglu2-1"placeholder="密码">
+					<img class="denglu3" src="../images/denglu.jpg" alt=""><a href="https:baidu.com"></a></img></form>
+					<div class="denglu4">
+					<a href="https:baidu.com" class="denglu4-1">忘记密码</a>
+					<p class="denglu4-2">还没有账号？<a class="denglu4-2-2" href="https：baidu.com">免费注册</a></p>
+					<div class="others1">
+						<div class="o1"></div>
+						<a class="otherLoad">其他报名方式</a>
+						<div class="o2"></div>
+						</div>
+					
+					<div class="footer1">
+						<img src="../images/ksdenglu.jpg" alt="">
+					</div>
+				</div>
+				</div>
+			</div>
+				</div>
+				<!-- <div class="modal-footer">
+					<button class="btn btn-default" data-dismiss="modal">Close</button>
+					<button class="btn btn-primary">保存</button>
+				</div> -->
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="myModal">
+		<div class="modal-dialog">
+				<div class="modal-body">
+					<div class="modal-content">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<img class="top-logo" src="../images/xiaologo.jpg" alt="">
+						<div class="zhuce"><a href=""><span>用手机注册</span></a></div>
+						<input type="text" class="denglu1" placeholder="请输入邮箱">
+						<input type="text" class="denglu2" placeholder="用户名,4-16个字符,字母/中文/数字">
+						<input type="text" class="denglu3" placeholder="设置密码">
+						<input type="text" class="denglu4" placeholder="输入密码">
+						<input type="text" class="denglu5" placeholder="输入邀请码,可不填">
+						<div class="denglu5-1">注册视为同意<span>《爱自驾用户使用协议》</span></div>
+						<div class="denglu5-2"><img src="../images/zhuce.jpg" alt=""></div>
+						<div class="others">
+						<div class="o1"></div>
+						<a class="otherLoad">其他报名方式</a>
+						<div class="o2"></div>
+						</div>
+						<div class="footer"><img src="../images/ksdenglu.jpg" alt="">
+						</div>	
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="top-box"></div>
+	<div class="header">
+		<div class="head-top">
+			<div class="h-t-inner">
+				<div class="h-t-l">
+					<a href="api.html"><img class="dingwei" src="../images/address.jpg" alt=""></a>
+					<div class="address">
+						<p>北京</p>
+						<span class="lianjie">切换</span>					
+						<ul class="inner-ul">
+							<h5>热搜城市</h5>
+								<li>北京</li>
+								<li>天津</li>
+								<li>河北</li>
+								<li>上海</li>
+								<li>河南</li>
+								<li>山西</li>
+								<li>陕西</li>
+								<li>内蒙</li>			
+						</ul>
+						<script src="../script/jquery.js"></script>
+						<script>
+							$(".inner-ul").hide();
+							$(".lianjie").click(function(){
+								$(".inner-ul").slideToggle(500)
+							})
+							$(".inner-ul li").click(function(){
+								var txt = $(this).text();
+								$(".address p").text(txt)
+
+							})
+						</script>
+					</div>
+					<div class="app">
+						<img class="appi" src="../images/phone.jpg" alt="">
+						<a href="">下载手机APP</a>
+					</div>
+				</div>
+				<div class="h-t-r">
+					<div class="dlfs">
+						<a class="qq" href=""javascript:;" onclick="return window.open('https://graph.qq.com/oauth2.0/authorize?client_id=101044974&amp;response_type=token&amp;scope=all&amp;redirect_uri=http%3A%2F%2Fqzonestyle.gtimg.cn%2Fqzone%2Fopenapi%2Fredirect-1.0.1.html', 'oauth2Login_10800' ,'height=525,width=585, toolbar=no, menubar=no, scrollbars=no, status=no, location=yes, resizable=yes');""><img src="../images/qq.jpg" alt=""></a>
+						<a class="bds_tsina" data-cmd="tsina" href="http://service.weibo.com/share/share.php?url=%E8%87%AA%E5%AE%9A%E4%B9%89%E5%88%86%E4%BA%ABurl%E5%9C%B0%E5%9D%80%230-tsina-1-99248-397232819ff9a47a7b7e80a40613cfe1&title=%E8%87%AA%E5%AE%9A%E4%B9%89%E5%88%86%E4%BA%AB%E5%86%85%E5%AE%B9&appkey=1343713053&pic=%E8%87%AA%E5%AE%9A%E4%B9%89%E5%88%86%E4%BA%AB%E5%9B%BE%E7%89%87&searchPic=true&sudaref=s.share.baidu.com"><img src="../images/web.jpg" alt=""></a>
+					</div>
+					<ul class="caozuo">
+						<button class="login" data-toggle="modal" data-target="#myModal1">登录</button>
+						<button class="sign-up" data-toggle="modal" data-target="#myModal">注册</button>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="head-bot">
+			<div class="h-b-inner">
+				<div class="logo">
+					<img src="../images/logo.jpg" alt="">
+				</div>
+				<div class="h-b-r">
+					<ul class="liebiao">
+						<li><a href="../index.html">首页</a></li>
+						<li><a href="WZQ-index2.html">目的地</a></li>
+						<li><a href="ZM-indexjnlby.html">线路</a></li>
+						<li><a href="REN-index2.html">订制</a></li>
+						<li><a class="zjt" href="ZM-indexjnlby.html">自驾团</a></li>
+						<li><a href="#">摄影</a></li>
+						<li><a href="ZM-index.html">互动</a></li>
+						<li><a href="WZQ-index1.html">精选</a></li>
+						<li><a href="#">预订</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="../script/jquery.js"></script>
+	<script>
+		var a=0;
+		var b=0;
+		$(document).on("mousewheel DOMMouseScroll", function (e) {
+
+	    var deltaa = (e.originalEvent.wheelDelta && (e.originalEvent.wheelDelta > 0 ? 1 : -1)) ||  // chrome & ie
+	                (e.originalEvent.detail && (e.originalEvent.detail > 0 ? -1 : 1));              // firefox
+
+	   
+	    if (deltaa > 0) {
+	        // 向上滚
+	        a=a+1;
+	        if(a===100){
+	        	$(".header").css("position","absolute")
+	        }
+	        console.log("wheelup");
+	    } else if (deltaa < 0) {
+	        // 向下滚
+	      
+	       	b = b+1;
+	        	if(b===1){
+	        		  $(".header").css("position","fixed")
+	        	}
+	        }
+	      
+	        console.log("wheeldown");
+	    
+	});
+	</script>
+		
+	<div class="box-top"></div>
+	<div class="banner">
+		<div class="banner-content">
+			<ul class="banner-list">
+				<li class="f-i">自驾团<img src="../images/liebiaodayuhao.jpg" ></li>		
+				<li>境内<img src="../images/liebiaodayuhao.jpg" ></li>
+				<li>云南落地自驾行摄之旅<img src="../images/liebiaodayuhao.jpg" ></li>
+				<li>我要报名<img src="../images/liebiaodayuhao.jpg" ></li> 
+				<li>填写订单</li>
+			</ul>
+			<div class="banner-box1"></div>
+			<div class="banner-box2"><img src="../images/duihao.jpg"></div>
+			<div class="banner-box3"></div>
+			<div class="banner-box4"><span>2</span></div>
+			<div class="banner-box5"></div>
+			<div class="banner-box6"><span>3</span></div>
+			<div class="banner-box7"></div>
+			<div class="banner-box8"><span>4</span></div>
+			<div class="banner-box9"></div>
+			<div class="banner-box10">
+				<ul class="banner-list2">
+				<li class="li1">选择路线</li>
+				<li class="li2">填写订单</li>
+				<li class="li3">在线支付</li>
+				<li class="li4">付款成功</li>
+			</ul>
+			</div>			
+		</div>
+	</div>
+	<div class="container">
+		<div class="container-t">
+			<div class="container-top">
+				<div class="container-top-t">
+					<span class="container-top-t-s">线路信息</span>
+					<input class="btn" type="button" value="修改">
+				</div>
+				<div class="container-position">
+					<div class="tbox">
+						<span class="sp">订单信息</span>
+					</div>
+					<div class="cbox">
+						<div class="scbox">
+							<span class="sp1">成人</span><span class="sp2">1 x ￥5280</span>
+						</div>
+						<div class="sccbox">
+							<span class="sp3">房间 x </span><span class="sp4">1</span>
+						</div>
+					</div>
+					<div class="bbox">
+						<span class="spsp">意外旅游险</span>
+						<span class="spsp1">1 x ￥120</span>
+					</div>
+					<div class="fbox">
+						<span class="sp">优惠金额</span>
+						<span class="sp1">-￥0</span>
+					</div>
+					<div class="totlebox">
+						<span class="sp">总计</span>
+						<span class="sp1">￥5400</span>
+					</div>
+				</div>
+				<script src="../script/jquery.js"></script>
+				<script> 
+					var height = $(window).height();
+					$(window).scroll(function(){
+						if($(window).scrollTop()>height){
+							$(".container-position").css("position","null").css("position","fixed").css("top","150px")
+						}else{
+							$(".container-position").css("position","null").css("position","absolute").css("top","391px")
+						}
+					})
+					
+
+				</script>				
+				<div class="content-top-c">
+					<ul class="container-top-c-list">
+						<li class="li1">线路名称 :
+							 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>[北京出发]</span><span class="sp3">经奢自驾八人小团 : 云南落地自驾行摄之旅</span></li>
+						<li class="li1">出游日期
+							<span class="sp1">*</span> :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="sp2">2016-01-07</span></li>
+							<li class="li1">成人<span class="sp1">*</span> : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<span class="sp2"> 1 x ￥5280</span></li>
+						<li class="li1">儿童 : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<span class="sp2">0 x ￥5280</span></li>
+						<li class="li1">房间<span class="sp1">*</span> : &nbsp;&nbsp;&nbsp;&nbsp;
+							<span class="sp2">
+								<div class="suanfa">
+									<input class="btns" type="button" value="-">
+									<input type="text" class="btnn" value="0">
+									<input class="btna" type="button" value="+">
+									<script src="../script/jquery.js"></script>
+									<script>
+										$(".btns").click(function(){
+												var  num = Number($(".btnn").val());
+												if(num > 0){
+													$(".btnn").val(--num);
+												}
+												var  num1 = Number($(".btnn").val());
+											$(".container .container-position .sp4").text(num1)
+											});
+
+										$(".btna").click(function(){
+											var  num = Number($(".btnn").val());
+											$(".btnn").val(++num);
+											var  num1 = Number($(".btnn").val());
+											$(".container .container-position .sp4").text(num1)
+										});
+									</script>
+								</div>
+
+							</span>
+						</li>
+						<li class="li1">
+							<form action="" method="get">
+								<span class="bbox">是否同意拼房</span><span class="sp1">*</span> :
+					  			<input class="inputtt" type="radio" name="sex" value="male" />同意拼房 <br />
+					 	 		<input class="inputt" type="radio" name="sex" value="female" />不同意拼房,愿意支付<span>房差费用￥3500</span><br />
+						</form>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="container-c">
+			<div class="container-center">
+				<div class="container-center-c">
+					<div class="container-center-top">
+						<ul class="tab">
+							<li class="sp1">费用说明</li>
+							<li class="sp2">退改规则</li>
+						</ul>
+						<script src="../script/jquery.js"></script>
+						<script>
+							$(".tab li").click(function(){
+								var index = $(this).index();
+								$(".container .container-c .container-center-bottom ul").eq(index).addClass("container-c-list").siblings().removeClass("container-c-list");
+							});
+							$(".tab li").mouseover(function(){
+								$(this).addClass("activee").siblings().removeClass("activee");
+							})
+						</script>
+					</div>
+					<div class="container-center-bottom">	
+						<ul class="container-c-list">
+							<h3>费用包含:</h3>
+							<li>*+7x24小时优秀中/英双语自驾向导服务（国内出发，全程陪同）； </li>
+							<li>*+国内往返美国经济舱机票、燃油附加税、机票税；</li>
+							<li>*+包含好莱坞环球影城+17英里海岸门票；</li>
+							<li>*+美国当地钻酒店住宿；</li>
+							<span class="linkk">阅读全部</span>
+							<div class="inner-box">
+								<div><span>*+中国当地钻酒店住宿</span></div>
+								<div><span>*+中国当地钻酒店住宿</span></div>
+								<div><span>*+中国当地钻酒店住宿</span></div>
+							</div>
+								
+							<script src="../script/jquery.js"></script>
+							<script>
+								$(".inner-box").hide();
+
+								$(".linkk").click(function(){
+									$(".inner-box").fadeToggle(500);
+								})
+								
+							</script>
+							
+						</ul>	
+						<ul>
+							<li>*+7x24小时优秀中/英双语自驾向导服务（国内出发，全程陪同）； </li>
+							<li>*+国内往返美国经济舱机票、燃油附加税、机票税；</li>
+						</ul>
+						
+						
+						
+					</div>
+				</div>				
+			</div>
+		</div>
+		<div class="container-b">
+			<div class="container-bottom">
+				<div class="container-bottom-b">
+					<div class="container-bottom-top">
+						<span class="sp1">联系人信息</span>
+					</div>
+					<div class="container-bottom-bottom">
+						<ul class="label-list">
+							<li class="l-li" class="li2">
+								<label for="">姓名<span>*</span></label>
+								<input class="txt1" type="text" placeholder="&nbsp;请输入姓名">
+							</li>
+							<li class="l-li">
+								<label for="">性别</label>
+								<ul class="input-list">
+									<li class="lil"><input type="radio" name="sex1" value="male"/>男<br/></li>
+									<li><input type="radio" name="sex1" value="female"/>女<br /></li>
+								</ul>
+								
+							</li>
+							<li class="l-li">					
+								<label for="">手机号码<span>*</span></label>
+								<input class="txt2" type="text" placeholder="&nbsp;请输入手机号码">
+								<span class="tof"></span>
+								<script src="../script/jquery.js"></script>
+								<script>
+										var re = /^[0-9]{11}$/;
+										$(".txt2").blur(function(){
+											var value = $(this).val();
+											var result = re.test(value);
+											if(result){
+												$(".tof").text("手机号码正确").removeClass("red").addClass("green");
+											}else{
+												$(".tof").text("请输入正确的手机号码").removeClass("green").addClass("red");
+											}
+											})
+
+								</script>
+							</li>
+							<li class="l-li">
+								<label for="">邮箱<span>*</span></label>
+								<input class="txt3" type="text" placeholder="&nbsp;请输入邮箱">
+								<span class="info"></span>
+								<script src="../script/jquery.js"></script>
+								<script>
+									var ree = /^[0-9a-zA-Z\_]{5,12}\@qq\.com$/;
+									$(".txt3").blur(function(){		
+										var value = $(this).val();//获取txt中的值
+										var result = ree.test(value);//检测 true or false
+										if(result){
+											$(".info").text("输入正确").removeClass("red").addClass("green");
+										}else{
+											$(".info").text("请输入正确的邮箱地址").removeClass("green").addClass("red");;
+										}
+									})
+									
+									
+								</script>
+
+							</li>
+						</ul>				
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</div>
+	<div class="bottom">
+		<div class="bottom-t">
+			<div class="bottom-top">
+				<div class="bottom-t-top">
+					<span class="spo">游客信息</span>
+					<input class="youke" type="button" value="常用游客">
+				</div>
+				<div class="bottom-t-center">
+					<h3>游客1</h3>
+					<ul class="label-list">
+						<li class="li1">
+							<label for="">游客类型</label>
+							<ul class="input-list">
+									<li class="lil"><input type="radio" name="sex2" value="male"/>成人<br/></li>
+									<li><input type="radio" name="sex2" value="female"/>儿童<br />
+									</li>
+								</ul>
+						</li>
+						<li class="li1">
+							<label for="">姓名<span class="spoo">*</span></label>
+							<select name="" id="">
+								<option >中文</option>
+								<option >英文</option>
+							</select>
+							<input  class="xingming" type="text" placeholder="&nbsp;请输入姓名">
+						</li>
+						<li class="li1">
+							<label for="">性别</label>
+							<ul class="input-list">
+								<li class="lil" id="li2"><input type="radio" name="sex3" value="male"/>男<br/></li>
+								<li id="li3"><input type="radio" name="sex3" value="female"/>女<br /></li>
+							</ul>
+						</li>
+						<li class="li1">
+							<label for="">手机号码</label>
+							<input class="shouji" type="text" placeholder="&nbsp;请输入手机号码">
+							<span class="toof"></span>
+							<script src="../script/jquery.js"></script>
+								<script>
+										var re = /^[0-9]{11}$/;
+										$(".shouji").blur(function(){
+											var value = $(this).val();
+											var result = re.test(value);
+											if(result){
+												$(".toof").text("手机号码正确").removeClass("red").addClass("green");
+											}else{
+												$(".toof").text("请输入正确的手机号码").removeClass("green").addClass("red");;
+											}
+											})
+
+								</script>
+						</li>
+						<li class="li1">
+							<label for="">证件<span class="spoo">*</span></label>
+							<select name="" id="">
+								<option >护照</option>
+								<option >身份证</option>
+							</select>
+							<input  class="zhengjian" type="text" placeholder="&nbsp;证件号码">
+
+						</li>
+					</ul>
+				</div>
+				<div class="bottom-t-bottom">
+					<input type="button" value="+ 添加游客">
+				</div>
+			</div>
+			<div class="bottom-center">
+				<div class="bottom-center-top">
+					<span class="sp1">保险</span>
+					<span class="sp2"><a href="">详情></a></span>
+				</div>
+				<div class="bottom-center-center">
+					<input type="checkbox">
+						<span class="sp1">平安爱自驾境外长线保险</span>
+						<span class="sp2">经典型2份</span>
+						<span class="sp3"><span class="sp4">￥177</span>/一份</span>
+					<br />
+				</div>
+				<div class="bottom-center-footer">
+					<input type="checkbox">
+						<span class="sp1">平安爱自驾境外长线保险</span>
+						<span class="sp2">经典型2份</span>
+						<span class="sp3"><span class="sp4">￥177</span>/一份</span>
+					<br />
+				</div>
+			</div>
+			<div class="bottom-footer">
+				<div class="bottom-footer-t">
+					<span>预定信息</span>
+				</div>
+				<div class="bottom-footer-c">
+					<ul class="label-list">
+						<li class="li1">
+							<label for="">发票信息 :</label>
+							<span class="la1" >是否需要发票: </span> 
+							<ul class="input-list">
+									<li class="lil" id="li2"><input type="radio" name="yes" value="male"/>是<br/></li>
+									<li id="li3"><input type="radio" name="yes" value="female"/>否<br /></li>
+								</ul>
+
+						</li>
+						<li class="li1">
+							<label for="">发票抬头:</label>
+							<input class="taitou" type="text" placeholder="&nbsp;请输入发票抬头">
+						</li>
+						<li class="li1">
+							<label for="">发票明细</label>
+							<select name="" class="huiyi">
+								<option value="">会议费</option>
+							</select>
+						</li>
+						<li class="li1">
+							<label for="">配送地址</label>
+							<input class="peisong" type="text" placeholder="&nbsp;请输入配送地址">
+						</li>
+					</ul>
+				</div>
+				<div class="bottom-footer-f">
+					<a href="">更多要求>></a>
+				</div>	
+			</div>
+
+			<div class="bottom-total">
+				<span> 总价 : 1 x ￥5280 + 1 x ￥120 + 1 x ￥170 =<span class="sp1">￥5570</span></span>
+			</div>
+			<div class="bottom-tongyi">
+				<input id="check" type="checkbox">
+				<span>已阅读爱自驾条款,并同意</span>
+			</div>
+			<div class="bottom-tijiao">
+				<input class="butt" type="button" value="确认订单并提交">
+			</div>
+			<script src="script/jquery.js"></script>
+			<script>
+				$("#check").click(function(){
+					$(this).attr("checked","checked");
+				})
+				$(".butt").click(function(){
+					var input=$("#check").attr("checked")
+					if(input==undefined){
+						alert("请勾选已阅读爱自驾条款,并同意")
+					}else{
+						location.href="ZT-pay.html"
+					}
+				})
+			</script>
+		</div>
+	</div>
+		<div class="footer">
+		<div class="foot-top">
+			<div class="f-t-inner">
+				<ul class="contact">
+					<li><a href="">人民交通出版社</a></li>
+					<li><a href="">爱自驾</a></li>
+					<li><a href="">联系我们</a></li>
+					<li><a href="">友情链接</a></li>
+					<li><a href="">爱自驾品牌店</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div class="foot-bot">
+			<div class="f-b-inner">
+				<p>人民交通出版社股份有限公司&nbsp&nbsp京ICP备I5018898号-1</p>
+			</div>
+		</div>
+	</div>
+	<script src="../script/jquery.js"></script>
+	<script src="../script/bootstrap/js/bootstrap.min.js"></script>	
+	 <script>
+	$(".denglu4-1-2").css({"background":"line-through"})
+	</script>	
+	<script type="text/javascript">
+		window._bd_share_config = {
+		common : {
+			bdText : '自定义分享内容',	
+			bdDesc : '自定义分享摘要',	
+			bdUrl : '自定义分享url地址', 	
+			bdPic : '自定义分享图片'
+		},
+		share : [{
+			"bdSize" : 16
+		}],
+		slide : [{	   
+			bdImg : 0,
+			bdPos : "right",
+			bdTop : 100
+		}],
+		image : [{
+			viewType : 'list',
+			viewPos : 'top',
+			viewColor : 'black',
+			viewSize : '16',
+			viewList : ['tsina']
+		}],
+	}
+	with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
+	</script>
+</body>
+</html>

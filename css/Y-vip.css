@@ -1,0 +1,59 @@
+.modal-content{
+		width: 500px;
+		height: 680px;
+		background-color: white;
+	}	
+	.modal-content .top-logo{
+		
+		margin-top: 24px;
+	}
+	.modal-dialog .modal-body .modal-content button span{
+		margin-top: 15px;
+		margin-right: 12px;
+	}
+
+	.modal-content .denglu{
+	
+		margin-top: 44px;
+	}
+	.modal-content .denglu .denglu1{
+		width: 352px;
+		height: 48px;
+	}
+	.modal-content .denglu .denglu2{
+		width: 352px;
+		height: 48px;
+		margin-top: 16px;
+	}
+	.modal-content .denglu .denglu3{
+		margin-top: 16px;
+	}
+	.modal-content .denglu .denglu4{
+		margin-top: 21px;
+	}
+	.modal-content .denglu .denglu4-2{
+		float: right;
+	}
+	.modal-body .others1{
+		width: 355px;
+		margin-top: 60px;
+	}
+	.modal-body .others1 div{
+		width: 134px;
+		height: 13px;
+		border-top:1px solid #50bbdb;
+		margin-top:20px;
+		float:left;
+
+	}
+	.modal-body .others1 a{
+		display:block;
+		text-decoration:none;
+		color:#cee9f3;
+		float:left;
+		margin-top: 10px;
+	}
+    .modal-body .footer1 img{
+		margin-left: 60px;
+		margin-top: 36px;
+	}

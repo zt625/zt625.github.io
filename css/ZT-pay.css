@@ -1,0 +1,274 @@
+*{
+			margin: 0;
+			padding: 0;
+		}
+		.caozuo{
+			margin-top:10px;
+		}
+		.caozuo img{
+			margin-right:10px;
+		}
+		.container{
+			margin: 0 auto;
+			height: 784px;
+		}
+		.container .container-inner{
+			width: 1000px;	
+			height: 784px;
+			margin: 0 auto;
+		}
+		.container-inner .route-p{
+			width: 1000px;
+			height:20px;
+			padding-top: 17px;
+			font-family: 微软雅黑;
+			font-size: 18px;
+			color: #333333;
+		}
+		.container-inner .route-line{
+			width: 1000px;
+			height:181px;
+			position: relative;
+
+		} 
+		.route-line .line-r{
+			width: 40px;
+			height: 40px;
+			border-radius: 20px;
+			border:2px solid #e5e5e5;
+			float: left;
+			position: absolute;
+			top:78px;
+			background-color: #fff;
+		}
+		.route-line .line-r-1{
+			left: 115px;
+			
+		}
+		.route-line .line-r-2{
+			left:342px;
+		}
+		.route-line .line-r-3{
+			left: 568px;
+		}
+		.route-line .line-r-4{
+			right: 162px;
+		}
+		.route-line .line{
+			width: 992px;
+			border: 4px solid #e5e5e5;
+			position: absolute;
+			top:98px;
+		}
+		
+		.route-line .line-r-1 .line-r-1-img{
+			padding-left: 9px;
+			padding-top: 7px;
+		}
+		.route-line .line-r-1 .line-r-2-img{
+			padding-left: 9px;
+			padding-top: 12px;
+		}
+		.route-line .line-r p{
+			text-align: center;
+			line-height: 40px;
+			font-family: 微软雅黑;
+			font-size: 20px;
+		}
+		.route-line .luxian{
+			float: left;
+			padding-top: 130px;
+			color: #50bbdb;
+		}
+		.route-line .luxian-1{
+			padding-left: 109px;
+			font-family: 微软雅黑;
+			font-size: 16px;
+			color: #50bbdb;
+
+		}
+		.route-line .luxian-2{
+			padding-left: 156px;
+			padding-right: 166px;
+		}
+		.route-line .luxian-4{
+			padding-left: 156px;
+			color: #999999;
+		}
+		.container-inner .pay{
+			height: 73px;
+			width: 1000px;
+			border-top: 1px dashed #d2d2d2;
+		}
+		.pay .pay-box{
+			width: 30px;
+			height: 30px;
+			padding-top: 22px;
+			padding-left: 30px;
+			float: left;
+		}
+		.pay .pay-p1{
+			line-height:70px;
+			padding-left: 12px;
+			font-family: 微软雅黑;
+			font-size: 22px;
+			float: left;
+		}
+		.pay .pay-p1 .pay-p1-sp-1{
+			color: #e94e25;
+		}
+		.pay .pay-p1 .pay-p1-sp-2{
+			font-family: 微软雅黑;
+			font-size: 14px;
+		}
+		.pay .pay-p2{
+			float: left;
+			color: #e94e25;
+			font-family: 微软雅黑;
+			font-size: 22px;
+			padding-left: 156px;
+			line-height: 73px;
+		}
+		.choose{
+			height: 52px;
+			width: 1000px;
+			background-color: #f7f7f7;
+		}
+		.choose .choose-p{
+			font-family: 微软雅黑;
+			font-size: 22px;
+			line-height:52px; 
+			float: left; 
+			padding-left: 31px;
+		}
+		.choose-pay{
+			width: 1000px;
+			height:287px;
+			margin: 0 auto;
+		}
+		.choose-pay .choose-pay1{
+			width: 1000px;
+			border-bottom: 1px dashed #e4e4e4;
+		}
+		.choose-pay .pay-one{
+			height: 102px;
+		}
+		.choose-pay .pay-two{
+			height: 98px;
+		}
+		.choose-pay .pay-thi{
+			height: 84px;
+		}
+		.choose-pay .pay-one .radio1{
+			line-height: 102px;
+			padding-left: 584px;
+			float: left;
+		}
+		.choose-pay .radio-size{
+			width: 30px;
+			height: 30px;
+			background-color:red;
+			color:red;
+		}
+		.choose-pay .pay-two .radio2{
+			line-height: 98px;
+			padding-right: 90px;
+			float: right;
+		}
+		.choose-pay .pay-thi .radio3{
+			line-height: 84px;
+			padding-right: 90px;
+			float: right;
+		}
+		.choose-pay .pay-one .pay-one-p1{
+			float: left;
+			font-family: 微软雅黑;
+			font-size: 22px;
+			padding-left: 30px;
+			line-height: 102px;
+			color: #333333;
+		}
+		.choose-pay .pay-one .pay-one-p2{
+			float: left;
+			font-family: 微软雅黑;
+			font-size: 16px;
+			color: #333333;
+			line-height: 102px;
+			padding-left: 18px;
+		}
+		.choose-pay .pay-one .pay-one-pic1{
+			float: left;
+			padding-left: 17px;
+			padding-top: 25px;
+		}
+		.choose-pay .pay-one .pay-one-pic2{
+			float: right;
+			width: 72px;
+			height: 54px;
+		}
+		.choose-pay .pay-one .pay-one-pic2 p{
+			float: right;
+			padding-top: 5px;
+			padding-right: 11px;
+			font-family: 微软雅黑;
+			font-size: 22px;
+			color: #ffffff;
+		}
+		.choose-pay .pay-two .pay-two-p{
+			float: left;
+			font-family: 微软雅黑;
+			font-size: 22px;
+			padding-left: 30px;
+			line-height: 98px;
+			color: #333333;
+		}
+		.choose-pay .pay-two .pay-two-pic{
+			float: left;
+			padding-left: 39px;
+			padding-top: 21px;
+		}
+		.choose-pay .pay-thi .pay-thi-p{
+			float: left;
+			font-family: 微软雅黑;
+			font-size: 22px;
+			padding-left: 30px;
+			line-height: 84px;
+			color: #333333;
+		}
+		.choose-pay .pay-thi .pay-thi-pic{
+			float: left;
+			padding-left: 39px;
+			padding-top: 23px;
+		}
+		.container-inner .true-pay{
+			width: 346px;
+			height: 46px;
+			float: right;
+			padding-top: 51px;
+			padding-right: 68px;
+		}
+		.true-pay .true-pay-p{
+			float: left;
+			font-family: 微软雅黑;
+			font-size: 16px;
+			color: #333333;
+			line-height: 46px;
+		}
+		.true-pay .true-pay-p span{
+			font-family: 微软雅黑;
+			font-size: 24px;
+			color: #ea5221;
+		}
+		.true-pay .pay-click{
+			background-color: #50bbdb;
+			width: 158px;
+			height: 46px;
+			float: right;
+		}
+		.true-pay .pay-click p{
+			font-family: 微软雅黑;
+			font-size: 22px;
+			color: #ffffff;
+			line-height: 46px;
+			text-align: center;
+		}

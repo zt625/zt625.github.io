@@ -1,0 +1,734 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>个人中心查看详情</title>
+	<link rel="stylesheet" href="../script/bootstrap/css/bootstrap.min.css">
+	<style>
+	.modal-content{
+		width: 800px;
+		height: 2000px;
+		background-position: white;
+	}
+	.modal-content .ding1{
+		font-family: 微软雅黑;
+		margin-left: 350px;
+		font-size: 24px;
+		margin-top: 26px;
+		color: #d2d2d2;
+	}
+	.modal-content .close{
+		margin-top: 10px;
+		margin-right: 20px;
+	}
+	.modal-content .ding2{
+		border-top:1px solid #d2d2d2;
+		width: 798px;
+		margin-top: 38px;
+	}
+	.modal-content .ding3{
+		height: 30px;
+		margin-top: 31px;
+	}
+	.modal-content .ding3 .ding3-1{
+		font-family: 微软雅黑;
+		font-size: 22px;
+		float: left;
+		margin-left: 25px;
+	}
+	.modal-content .ding3 .ding3-2{
+		color: #ea5023;
+		margin-left: 22px;
+		font-size: 14px;
+	}
+	.modal-content .ding3 .ding3-3{
+		font-size: 26px;
+		color: #ea5023;
+	}
+	.modal-content .ding4{
+		width: 798px;
+		height: 55px;
+		background-image: url(../images/bai.jpg);
+		border-top:1px solid #d2d2d2;
+		margin-top: 28px;
+	}
+	.modal-content .ding4 .ding4-1{
+		font-family: 微软雅黑;
+		font-size: 22px;
+		float: left;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	.modal-content .ding5{
+		margin-top: -10px;
+	}
+	.modal-content .ding5-1{
+		float: left;
+		font-family: 微软雅黑;
+		font-size: 18px;
+		float: left;
+		margin-left: 25px;
+		margin-right: 15px;
+	}
+	.modal-content .ding5-2{
+		margin-left: 25px;
+		margin-top: 31px;
+		font-size: 18px;
+		font-family: 微软雅黑;
+		width: 500px;
+	}
+	.modal-content .ding6{
+		margin-top: 10px;
+	}
+	.modal-content .ding6-1{
+		font-family: 微软雅黑;
+		font-size: 18px;
+		float: left;
+		margin-left: 25px;
+		margin-right: 15px;
+	}
+	.modal-content .ding6-2{
+		margin-top: 31px;
+		font-size: 18px;
+		font-family: 微软雅黑;
+		width: 500px;
+		margin-left: 18px;
+	}
+	.modal-content .ding7{
+		margin-top: 10px;
+	}
+	.modal-content .ding7-1{
+		font-family: 微软雅黑;
+		font-size: 18px;
+		float: left;
+		margin-left: 25px;
+		margin-right: 15px;
+	}
+	.modal-content .ding7-2{
+		margin-left: 20px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .ding7-3{
+		margin-left: 170px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .ding7-4{
+		margin-left: 30px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .ding8{
+		margin-top: 10px;
+	}
+	.modal-content .ding8 .ding8-1{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content  .ding8 .ding8-2{
+		margin-left: 20px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .ding9{
+		border-top:1px solid #d2d2d2;
+		width: 798px;
+		margin-top: 20px;
+	}
+	.modal-content .ding10{
+		width: 798px;
+		height: 55px;
+		background-image: url(../images/bai.jpg);
+		border-top:1px solid #d2d2d2;
+		margin-top: 28px;
+	}
+	.modal-content .ding10 .ding10-1{
+		font-family: 微软雅黑;
+		font-size: 22px;
+		float: left;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	.modal-content .ding11 .ding11-1{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .ding11 .ding11-2{
+		margin-left: 110px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+
+	}
+	.modal-content .ding11 .ding11-3{
+		margin-left: 150px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+
+	}
+	.modal-content .ding11 .ding11-4{
+		margin-left: 80px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .ding12{
+		margin-top: 10px;
+	}
+	.modal-content .ding12 .ding12-1{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .ding12 .ding12-2{
+		margin-left: 73px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .ding12 .ding12-3{
+		margin-left: 90px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .ding12 .ding12-4{
+		font-family: 微软雅黑;
+		font-size: 18px;
+		margin-left: 10px;
+	}
+	.modal-content .ding13{
+		border-top:1px solid #d2d2d2;
+		width: 798px;
+		margin-top: 20px;
+	}
+	.modal-content .ding14{
+		width: 798px;
+		height: 55px;
+		background-image: url(../images/bai.jpg);
+		border-top:1px solid #d2d2d2;
+		margin-top: 28px;
+	}
+	.modal-content .ding14 .ding14-1{
+		font-family: 微软雅黑;
+		font-size: 22px;
+		float: left;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	.modal-content .ding15{
+		margin-top: 10px;
+	}
+	.modal-content .ding15 .ding15-1{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 18px
+	}
+	.modal-content .ding15 .ding15-1-1{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 18px	
+	}
+	.modal-content .ding15 .ding15-1-2{
+		margin-left: 45px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .ding15 .ding15-1-3{
+		margin-left: 90px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .ding15 .ding15-1-4{
+		margin-left: 90px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content  .ding15-2{
+		margin-top: 20px;
+	}
+	.modal-content .ding15-2-4{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 18px
+	}
+	.modal-content .ding15-2-1{
+		margin-left: 80px;
+		font-family: 微软雅黑;
+		font-size: 18px	
+	}
+	.modal-content  .ding15-2-2{
+		margin-left: 105px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content  .ding15-2{
+		margin-top: 10px;
+	}
+	.modal-content  .ding15-3{
+		margin-top: 10px;
+	}
+	.modal-content  .ding15-2-3{
+		margin-left: 75px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content  .ding15-3-1{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 18px
+	}
+	.modal-content  .ding15-3-2{
+		margin-left: 80px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .ding15-3-3{
+		margin-left: 88px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .dan2{
+		border-top:1px dashed #d2d2d2;
+		margin-top: 30px;
+
+	}
+	.modal-content .dan1{
+		margin-top: 30px;
+	}
+	.modal-content .dan1 .dan1-1{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 18px
+	}
+	.modal-content .dan1 .dan1-1-1{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 18px	
+	}
+	.modal-content .dan1 .dan1-1-2{
+		margin-left: 45px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .dan1 .dan1-1-3{
+		margin-left: 90px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .dan1 .dan1-1-4{
+		margin-left: 90px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content  .dan1-2{
+		margin-top: 20px;
+	}
+	.modal-content .dan1-2-4{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 18px
+	}
+	.modal-content .dan1-2-1{
+		margin-left: 80px;
+		font-family: 微软雅黑;
+		font-size: 18px	
+	}
+	.modal-content  .dan1-2-2{
+		margin-left: 105px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content  .dan1-2{
+		margin-top: 10px;
+	}
+	.modal-content  .dan1-3{
+		margin-top: 10px;
+	}
+	.modal-content  .dan1-2-3{
+		margin-left: 75px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content  .dan1-3-1{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 18px
+	}
+	.modal-content  .dan1-3-2{
+		margin-left: 80px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .dan1-3-3{
+		margin-left: 88px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .bao1{
+		border-top:1px solid #d2d2d2;
+		margin-top: 30px;
+
+	}
+	.modal-content .bao2{
+		width: 798px;
+		height: 55px;
+		background-image: url(../images/bai.jpg);
+		border-top:1px solid #d2d2d2;
+		margin-top: 28px;
+	}
+	.modal-content .bao2 .bao2-1{
+		font-family: 微软雅黑;
+		font-size: 22px;
+		float: left;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	.modal-content .bao3{
+		margin-top: 10px;
+	}
+	.modal-content .bao3 .bao3-1{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 18px
+	}
+	.modal-content .bao3 .bao3-1-1{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 18px	
+	}
+	.modal-content .bao3 .bao3-1-2{
+		margin-left: 45px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .bao3 .bao3-1-3{
+		color: #ea5023;
+		margin-left: 200px;
+		font-family: 微软雅黑;
+		font-size: 14px;
+	}
+	.modal-content .bao3 .bao3-1-4{
+		/*margin-left: 90px;*/
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content  .bao3-2{
+		margin-top: 20px;
+	}
+	.modal-content .bao3-2-4{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 18px
+	}
+	.modal-content .bao3-2-1{
+		margin-left: 45px;
+		font-family: 微软雅黑;
+		font-size: 18px
+	}
+	.modal-content  .bao3-2-2{
+		color: #ea5023;
+		margin-left: 200px;
+		font-family: 微软雅黑;
+		font-size: 14px;	}
+	.modal-content  .bao3-2{
+		margin-top: 10px;
+	}
+	.modal-content  .bao3-3{
+		margin-top: 10px;
+	}
+	.modal-content  .bao3-2-3{
+		font-family: 微软雅黑;
+		font-size: 18px;	}
+	.modal-content  .bao3-3-1{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 18px
+	}
+	.modal-content  .bao3-3-2{
+		
+
+	}
+	.modal-content .bao3-3-3{
+		margin-left: 88px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .yu1{
+		border-top:1px solid #d2d2d2;
+		margin-top: 30px;
+
+	}
+	.modal-content .yu2{
+		width: 798px;
+		height: 55px;
+		background-image: url(../images/bai.jpg);
+		border-top:1px solid #d2d2d2;
+		margin-top: 28px;
+	}
+	.modal-content .yu2 .yu2-1{
+		font-family: 微软雅黑;
+		font-size: 22px;
+		float: left;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	.modal-content .yu3{
+		margin-top: 10px;
+	}
+	.modal-content .yu3 .yu3-1{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 18px
+	}
+	.modal-content .yu3 .yu3-1-1{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 18px	
+	}
+	.modal-content .yu3 .yu3-1-2{
+		margin-left: 45px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .yu3 .yu3-1-3{
+		margin-left: 50px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .yu3 .yu3-1-4{
+		/*margin-left: 90px;*/
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content  .yu3-2{
+		margin-top: 20px;
+	}
+	.modal-content .yu3-2-4{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 18px
+	}
+	.modal-content .yu3-2-1{
+		margin-left: 45px;
+		font-family: 微软雅黑;
+		font-size: 18px
+	}
+	.modal-content  .yu3-2-2{
+		margin-left: 90px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content  .yu3-2{
+		margin-top: 10px;
+	}
+	.modal-content  .yu3-3{
+		margin-top: 10px;
+	}
+	.modal-content  .yu3-2-3{
+		font-family: 微软雅黑;
+		font-size: 18px;	}
+	.modal-content  .yu3-3-1{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 18px
+	}
+	.modal-content  .yu3-3-2{
+		margin-left: 45px;
+		font-family: 微软雅黑;
+		font-size: 18px
+
+	}
+	.modal-content .yu4{
+		border-top:1px solid #d2d2d2;
+		margin-top: 30px;
+
+	}
+	.modal-content  .yu4-1{
+		width: 798px;
+		height: 55px;
+		background-image: url(../images/bai.jpg);
+		border-top:1px solid #d2d2d2;
+		margin-top: 28px;
+	}
+	.modal-content  .yu4-1-1{
+		font-family: 微软雅黑;
+		font-size: 22px;
+		float: left;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	.modal-content  .yu4-1-2{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 15px;
+		margin-top:30px;
+	}
+	.modal-content .wei1{
+		border-top:1px solid #d2d2d2;
+		margin-top: 30px;
+	}
+	.modal-content .wei2{
+		width: 52px;
+		height: 28px;
+		margin-top: 30px;
+		float: right;
+		margin-right: 30px;
+	}
+
+	</style>
+</head>
+<body>
+	<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">点击出现</button>
+	<div class="modal fade" id="myModal">
+		<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><img src="../images/clone.jpg" alt=""></span></button>	
+						<p class="ding1" id="top">订单详情</p>
+						<div class="ding2"></div>	
+						<div class="ding3">
+							<p class="ding3-1">订单支付总额:</p>
+							<span class="ding3-2">&yen;</span>
+							<span class="ding3-3">5280</span></div>	
+						<div class="ding4">
+							<p class="ding4-1">线路信息</p></div>
+						<div class="ding5">
+							<p class="ding5-1">自驾团名称:</p>
+							<p class="ding5-2">云南落地自驾行摄之旅</p>
+						</div>
+						<div class="ding6">
+							<span class="ding6-1">出游日期:</span>
+							<span class="ding6-2">2016-01-17</span>
+						</div>
+						<div class="ding7">
+							<span class="ding7-1">成人:</span>
+							<span class="ding7-2">1人</span>
+							<span class="ding7-3">儿童:</span>
+							<span class="ding7-4">0人</span>
+						</div>
+						<div class="ding8">
+							<span class="ding8-1">房间:</span>
+							<span class="ding8-2">2人间， 愿意拼房</span>
+						</div>
+						<div class="ding9"></div>
+						<div class="ding10">
+							<span class="ding10-1">联系人信息</span>
+						</div>
+						<div class="ding11">
+							<span class="ding11-1">姓名:</span>
+							<span class="ding11-2">罗小小</span>
+							<span class="ding11-3">性别:</span>
+							<span class="ding11-4">女</span>
+						</div>
+						<div class="ding12">
+							<span class="ding12-1">手机号码:</span>
+							<span class="ding12-2">18270837899</span>
+							<span class="ding12-3">邮箱:</span>
+							<span class="ding12-4">2689326087@qq.com</span>
+						</div>
+						<div class="ding13"></div>
+						<div class="ding14">
+							<span class="ding14-1">游客信息</span>
+						</div>
+						<div class="ding15">
+							<p class="ding15-1">游客1</p>
+							<span class="ding15-1-1">游客类型:</span>
+							<span class="ding15-1-2">成人</span>
+							<span class="ding15-1-3">姓名:</span>
+							<span class="ding15-1-4">罗小小</span>
+						</div>
+						<div class="ding15-2">
+							<span class="ding15-2-4">性别:</span>					
+							<span class="ding15-2-1">女</span>
+							<span class="ding15-2-2">手机号:</span>
+							<span class="ding15-2-3">12345678910</span>
+						</div>
+						<div class="ding15-3">
+							<span class="ding15-3-1">证件:</span>
+							<span class="ding15-3-2">护照</span>
+							<span class="ding15-3-3">452726199102031552</span>
+						</div>
+						<div class="dan2"></div>
+						<div class="dan1">
+							<p class="dan1-1">游客1</p>
+							<span class="dan1-1-1">游客类型:</span>
+							<span class="dan1-1-2">成人</span>
+							<span class="dan1-1-3">姓名:</span>
+							<span class="dan1-1-4">罗小小</span>
+						</div>
+						<div class="dan1-2">
+							<span class="dan1-2-4">性别:</span>					
+							<span class="dan1-2-1">女</span>
+							<span class="dan1-2-2">手机号:</span>
+							<span class="dan1-2-3">12345678910</span>
+						</div>
+						<div class="dan1-3">
+							<span class="dan1-3-1">证件:</span>
+							<span class="dan1-3-2">护照</span>
+							<span class="dan1-3-3">452726199102031552</span>
+						</div>
+						<div class="bao1"></div>
+						<div class="bao2">
+							<span class="bao2-1">保险</span>
+						</div>
+						<div class="bao3">
+							<span class="bao3-1-1">平安爱自驾境外长线保险:</span>
+							<span class="bao3-1-2">经典型2份</span>
+							<span class="bao3-1-3">&yen;177</span>
+							<span class="bao3-1-4">/一份</span>
+						</div>
+						<div class="bao3-2">
+							<span class="bao3-2-4">平安爱自驾境外长线保险:</span>					
+							<span class="bao3-2-1">经典型2份</span>
+							<span class="bao3-2-2">&yen;177</span>
+							<span class="bao3-2-3">/一份</span>
+						</div>
+						<div class="yu1"></div>
+						<div class="yu2">
+							<span class="yu2-1">预定信息</span>
+						</div>
+						<div class="yu3">
+							<span class="yu3-1-1">发票信息:</span>
+							<span class="yu3-1-2">是否需要发票</span>
+							<span class="yu3-1-3">是</span>
+						</div>
+						<div class="yu3-2">
+							<span class="yu3-2-4">发票抬头:</span>					
+							<span class="yu3-2-1">无</span>
+							<span class="yu3-2-2">发票明细:</span>
+							<span class="yu3-2-3">会议费</span>
+						</div>
+						<div class="yu3-3">
+							<span class="yu3-3-1">配送地址:</span>
+							<span class="yu3-3-2">北京市朝阳区北辰东路八号汇园国际K座</span>
+						</div>
+						<div class="yu4"></div>
+						<div class="yu4-1">
+							<span class="yu4-1-1">更多要求</span>
+						</div>
+						<p class="yu4-1-2">温馨的住宿和美味的餐食</p>
+						<div class="wei1"></div>
+						<div class="wei2">
+							<a href="#top"><img src="../images/top.jpg" alt=""></a>
+						</div>
+
+					</div>
+		</div>		
+	</div>
+	<script src="../script/jquery.js"></script>
+	<script src="../script/bootstrap/js/bootstrap.min.js"></script>	
+	<script>
+		$(window).scroll(function(){
+			var sTop=$(this).scrollTop();
+			})	
+		$(".wei3").click(function(){
+			$("html,body").animate({
+				scrollTop:0
+			},500)
+		});
+
+
+
+
+	</script>
+</body>
+</html>

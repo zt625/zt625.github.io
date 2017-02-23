@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="../css/zm-index01.css">
+	<link rel="stylesheet" href="../css/zm-index02.css">
+	<link rel="stylesheet" type="text/css" href="../css/public.css">
+	<link rel="stylesheet" href="../script/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/Y-nvip.css">
+	<link rel="stylesheet" href="../css/Y-vip.css">
+</head>
+<body>
+	<div class="modal fade" id="myModal1">
+		<div class="modal-dialog">
+				<div class="modal-body">
+					<div class="modal-content">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<img class="top-logo" src="../images/xiaologo.jpg" alt="">
+				<div class="denglu">
+					<form action="">
+					<input  class="denglu1" id="denglu1-1" type="text" placeholder="邮箱/手机/用户名">
+					<input type="password"  class="denglu2" id="denglu2-1"placeholder="密码">
+					<img class="denglu3" src="../images/denglu.jpg" alt=""><a href="https:baidu.com"></a></img></form>
+					<div class="denglu4">
+					<a href="https:baidu.com" class="denglu4-1">忘记密码</a>
+					<p class="denglu4-2">还没有账号？<a class="denglu4-2-2" href="https：baidu.com">免费注册</a></p>
+					<div class="others1">
+						<div class="o1"></div>
+						<a class="otherLoad">其他报名方式</a>
+						<div class="o2"></div>
+						</div>
+					
+					<div class="footer1">
+						<img src="../images/ksdenglu.jpg" alt="">
+					</div>
+				</div>
+				</div>
+			</div>
+				</div>
+				<!-- <div class="modal-footer">
+					<button class="btn btn-default" data-dismiss="modal">Close</button>
+					<button class="btn btn-primary">保存</button>
+				</div> -->
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="myModal">
+		<div class="modal-dialog">
+				<div class="modal-body">
+					<div class="modal-content">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<img class="top-logo" src="../images/xiaologo.jpg" alt="">
+						<div class="zhuce"><a href=""><span>用手机注册</span></a></div>
+						<input type="text" class="denglu1" placeholder="请输入邮箱">
+						<input type="text" class="denglu2" placeholder="用户名,4-16个字符,字母/中文/数字">
+						<input type="text" class="denglu3" placeholder="设置密码">
+						<input type="text" class="denglu4" placeholder="输入密码">
+						<input type="text" class="denglu5" placeholder="输入邀请码,可不填">
+						<div class="denglu5-1">注册视为同意<span>《爱自驾用户使用协议》</span></div>
+						<div class="denglu5-2"><img src="../images/zhuce.jpg" alt=""></div>
+						<div class="others">
+						<div class="o1"></div>
+						<a class="otherLoad">其他报名方式</a>
+						<div class="o2"></div>
+						</div>
+						<div class="footer"><img src="../images/ksdenglu.jpg" alt="">
+						</div>	
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 开始 -->
+	<div class="header">
+		<div class="head-top">
+			<div class="h-t-inner">
+				<div class="h-t-l">
+					<a href="api.html"><img class="dingwei" src="../images/address.jpg" alt=""></a>
+					<div class="address">
+						<p>北京</p>
+						<span class="lianjie">切换</span>					
+						<ul class="inner-ul">
+							<h5>热搜城市</h5>
+								<li>北京</li>
+								<li>天津</li>
+								<li>河北</li>
+								<li>上海</li>
+								<li>河南</li>
+								<li>山西</li>
+								<li>陕西</li>
+								<li>内蒙</li>			
+						</ul>
+						<script src="../script/jquery.js"></script>
+						<script>
+							$(".inner-ul").hide();
+							$(".lianjie").click(function(){
+								$(".inner-ul").slideToggle(500)
+							})
+							$(".inner-ul li").click(function(){
+								var txt = $(this).text();
+								$(".address p").text(txt)
+
+							})
+						</script>
+					</div>
+					<div class="app">
+						<img class="appi" src="../images/phone.jpg" alt="">
+						<a href="">下载手机APP</a>
+					</div>
+				</div>
+				<div class="h-t-r">
+					<div class="dlfs">
+						<a class="qq" href=""javascript:;" onclick="return window.open('https://graph.qq.com/oauth2.0/authorize?client_id=101044974&amp;response_type=token&amp;scope=all&amp;redirect_uri=http%3A%2F%2Fqzonestyle.gtimg.cn%2Fqzone%2Fopenapi%2Fredirect-1.0.1.html', 'oauth2Login_10800' ,'height=525,width=585, toolbar=no, menubar=no, scrollbars=no, status=no, location=yes, resizable=yes');""><img src="../images/qq.jpg" alt=""></a>
+						<a class="bds_tsina" data-cmd="tsina" href="http://service.weibo.com/share/share.php?url=%E8%87%AA%E5%AE%9A%E4%B9%89%E5%88%86%E4%BA%ABurl%E5%9C%B0%E5%9D%80%230-tsina-1-99248-397232819ff9a47a7b7e80a40613cfe1&title=%E8%87%AA%E5%AE%9A%E4%B9%89%E5%88%86%E4%BA%AB%E5%86%85%E5%AE%B9&appkey=1343713053&pic=%E8%87%AA%E5%AE%9A%E4%B9%89%E5%88%86%E4%BA%AB%E5%9B%BE%E7%89%87&searchPic=true&sudaref=s.share.baidu.com"><img src="../images/web.jpg" alt=""></a>
+					</div>
+					<ul class="caozuo">
+						<button class="login" data-toggle="modal" data-target="#myModal1">登录</button>
+						<button class="sign-up"data-toggle="modal" data-target="#myModal">注册</button>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="head-bot">
+			<div class="h-b-inner">
+				<div class="logo">
+					<img src="../images/logo.jpg" alt="">
+				</div>
+				<div class="h-b-r">
+					<ul class="liebiao">
+						<li><a href="../index.html">首页</a></li>
+						<li><a href="WZQ-index2.html">目的地</a></li>
+						<li><a href="ZM-indexjnlby.html">线路</a></li>
+						<li><a href="REN-index2.html">订制</a></li>
+						<li><a class="zjt" href="#">自驾团</a></li>
+						<li><a href="#">摄影</a></li>
+						<li><a href="ZM-index.html">互动</a></li>
+						<li><a href="WZQ-index1.html">精选</a></li>
+						<li><a href="WZQ-index.html">预订</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="top-box"></div>
+	<div class="banner">
+		<div class="banner-top">
+			<img src="../images/quzijia.jpg" width="100%">
+		</div>
+		<div class="search">
+					<input type="text" class="sousuo" placeholder="南京">
+					<div class="fdj">
+						<input type="image" src="../images/search1.jpg">
+					</div>
+				</div>
+				<table class="hot-search">
+					<tr>
+						<td>
+							<p>热门搜索&nbsp:</p>
+							<ul>
+								<li><a href="">北京</a></li>
+								<li><a href="">西安</a></li>
+								<li><a href="">天津</a></li>
+								<li><a href="">上海</a></li>
+								<li><a href="">杭州</a></li>
+								<li><a href="">青海</a></li>
+								<li><a href="">西藏</a></li>
+								<li><a href="">云南</a></li>
+							</ul>
+						</td>
+					</tr>
+				</table>
+		
+	</div>	
+	<div class="bigbbox">
+		<div class="big-box">
+			<span class="spp">境内</span>
+			<span class="sppp">Territory</span>
+		</div>
+	</div>
+	
+		<div class="main">
+			<div class="main-inner">
+				<div class="main-bot">
+				<ul class="big-box">
+					<li class="box1">
+						<div class="pic-box">
+							<img src="../images/xiangxi.jpg" alt="">
+							<div class="picbox-bot">
+								<p>魅力湘西过大年</p>
+							</div>
+						</div>
+						<div class="price-box">
+							<span class="price">4580<p class="qi">起</p></span>
+							<span class="cfdate">2015-02-07出发</span>
+							<span class="days">7天</span>
+						</div>
+						<div class="clear"></div>
+						<div class="lxxc">
+						<!-- 路线行程 -->
+							<p class="lx">北京—襄阳—龙山—吉首—边城......</p>
+							<p class="jj">深度体验土苗特色春节</p>
+							<div class="pingjia">
+								<a href="">
+									<img src="../images/xiaoren.jpg" alt="">
+									<span>携友同行汽车俱乐部</span>
+								</a>
+								<div class="pingjia-r">
+									<span class="kanguo">
+										<img src="../images/kanguo.jpg" alt="">
+										<p>36</p>
+									</span>
+									<span class="dianzan">
+										<img src="../images/dianzan.jpg" alt="">
+										<p>0</p>
+									</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="pic-box">
+							<img src="../images/tt5.jpg" alt="">
+							<div class="picbox-bot">
+								<p>舟山、普陀山7天自驾之旅</p>
+							</div>
+						</div>
+						<div class="price-box">
+							<span class="price">3580<p class="qi">起</p></span>
+							<span class="cfdate">2015-12-29出发</span>
+							<span class="days">7天</span>
+						</div>
+						<div class="clear"></div>
+						<div class="lxxc">
+							<p class="lx">北京—舟山市—普陀山—绍兴—扬州</p>
+							<p class="jj">南海圣境的祈福之旅！</p>
+							<div class="pingjia">
+								<a href="">
+									<img src="../images/xiaoren.jpg" alt="">
+									<span>北京969汽车俱乐部</span>
+								</a>
+								<div class="pingjia-r">
+									<span class="kanguo">
+										<img src="../images/kanguo.jpg" alt="">
+										<p>36</p>
+									</span>
+									<span class="dianzan">
+										<img src="../images/dianzan.jpg" alt="">
+										<p>0</p>
+									</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="pic-box">
+							<img src="../images/yun.jpg" alt="">
+							<div class="picbox-bot">
+								<p>燕子沟•木格措3日自驾之旅</p>
+							</div>
+						</div>
+						<div class="price-box">
+							<span class="price">1980<p class="qi">起</p></span>
+							<span class="cfdate">2015-12-30出发</span>
+							<span class="days">6天</span>
+						</div>
+						<div class="clear"></div>
+						<div class="lxxc">
+							<p class="lx">成都—康定—木格措—燕子沟</p>
+							<p class="jj">欣赏木格措一日四时景，体验藏文化。</p>
+							<div class="pingjia">
+								<a href="">
+									<img src="../images/xiaoren.jpg" alt="">
+									<span>成都心启点自驾俱乐部</span>
+								</a>
+								<div class="pingjia-r">
+									<span class="kanguo">
+										<img src="../images/kanguo.jpg" alt="">
+										<p>36</p>
+									</span>
+									<span class="dianzan">
+										<img src="../images/dianzan.jpg" alt="">
+										<p>0</p>
+									</span>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<ul class="big-box">
+					<li class="box1">
+						<div class="pic-box">
+							<img src="../images/t4.jpg" alt="">
+							<div class="picbox-bot">
+								<p>云南落地自驾行摄之旅</p>
+							</div>
+						</div>
+						<div class="price-box">
+							<span class="price">4580<p class="qi">起</p></span>
+							<span class="cfdate">2015-12-17出发</span>
+							<span class="days">7天</span>
+						</div>
+						<div class="clear"></div>
+						<div class="lxxc">
+							<p class="lx">昆明—建水—元阳·—元江—玉溪—东川</p>
+							<p class="jj">壮美东川，光影元阳</p>
+							<div class="pingjia">
+								<a href="">
+									<img src="../images/xiaoren.jpg" alt="">
+									<span>中国自驾游联盟南京站</span>
+								</a>
+								<div class="pingjia-r">
+									<span class="kanguo">
+										<img src="../images/kanguo.jpg" alt="">
+										<p>36</p>
+									</span>
+									<span class="dianzan">
+										<img src="../images/dianzan.jpg" alt="">
+										<p>0</p>
+									</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="pic-box">
+							<img src="../images/t7.jpg" alt="">
+							<div class="picbox-bot">
+								<p>食在广东 粤菜美食6日自驾</p>
+							</div>
+						</div>
+						<div class="price-box">
+							<span class="price">3680<p class="qi">起</p></span>
+							<span class="cfdate">2015-12-29出发</span>
+							<span class="days">6天</span>
+						</div>
+						<div class="clear"></div>
+						<div class="lxxc">
+							<p class="lx">广州—开平—番禺—深圳</p>
+							<p class="jj">领略岭南风光，品味地道美食</p>
+							<div class="pingjia">
+								<a href="">
+									<img src="../images/xiaoren.jpg" alt="">
+									<span>中国自驾游联盟南京站</span>
+								</a>
+								<div class="pingjia-r">
+									<span class="kanguo">
+										<img src="../images/kanguo.jpg" alt="">
+										<p>36</p>
+									</span>
+									<span class="dianzan">
+										<img src="../images/dianzan.jpg" alt="">
+										<p>0</p>
+									</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="pic-box">
+							<img src="../images/t6.jpg" alt="">
+							<div class="picbox-bot">
+								<p>冰雪圣地呼伦贝尔冬季那达慕自驾</p>
+							</div>
+						</div>
+						<div class="price-box">
+							<span class="price">3880<p class="qi">起</p></span>
+							<span class="cfdate">2015-12-30出发</span>
+							<span class="days">7天</span>
+						</div>
+						<div class="clear"></div>
+						<div class="lxxc">
+							<p class="lx">海拉尔—呼和诺尔—冷极村—敖鲁古雅冰雪</p>
+							<p class ="jj">冰雪盛宴，冬季那达慕</p>
+							<div class="pingjia">
+								<a href="">
+									<img src="../images/xiaoren.jpg" alt="">
+									<span>中国自驾游联盟南京站</span>
+								</a>
+								<div class="pingjia-r">
+									<span class="kanguo">
+										<img src="../images/kanguo.jpg" alt="">
+										<p>36</p>
+									</span>
+									<span class="dianzan">
+										<img src="../images/dianzan.jpg" alt="">
+										<p>0</p>
+									</span>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<ul class="big-box">
+					<li class="box1">
+						<div class="pic-box">
+							<img src="../images/t4.jpg" alt="">
+							<div class="picbox-bot">
+								<p>彩云之南 边关秘境 发现之旅</p>
+							</div>
+						</div>
+						<div class="price-box">
+							<span class="price">11800<p class="qi">起</p></span>
+							<span class="cfdate">2016-01-03出发</span>
+							<span class="days">25天</span>
+						</div>
+						<div class="clear"></div>
+						<div class="lxxc">
+							<p class="lx"> 南京—重庆—普者黑—元阳—泸沽湖</p>
+							<p class="jj">不一样的云南发现之旅</p>
+							<div class="pingjia">
+								<a href="">
+									<img src="../images/xiaoren.jpg" alt="">
+									<span>中国自驾游联盟南京站</span>
+								</a>
+								<div class="pingjia-r">
+									<span class="kanguo">
+										<img src="../images/kanguo.jpg" alt="">
+										<p>36</p>
+									</span>
+									<span class="dianzan">
+										<img src="../images/dianzan.jpg" alt="">
+										<p>0</p>
+									</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="pic-box">
+							<img src="../images/t2.jpg" alt="">
+							<div class="picbox-bot">
+								<p>海天佛国 普陀山祈福之旅</p>
+							</div>
+						</div>
+						<div class="price-box">
+							<span class="price">1280<p class="qi">起</p></span>
+							<span class="cfdate">2016-01-05出发</span>
+							<span class="days">3天</span>
+						</div>
+						<div class="clear"></div>
+						<div class="lxxc">
+							<p class="lx">南京—朱家尖—普陀山—宁波</p>
+							<p class="jj">海天佛国，南海圣境</p>
+							<div class="pingjia">
+								<a href="">
+									<img src="../images/xiaoren.jpg" alt="">
+									<span>中国自驾游联盟南京站</span>
+								</a>
+								<div class="pingjia-r">
+									<span class="kanguo">
+										<img src="../images/kanguo.jpg" alt="">
+										<p>36</p>
+									</span>
+									<span class="dianzan">
+										<img src="../images/dianzan.jpg" alt="">
+										<p>0</p>
+									</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="pic-box">
+							<img src="../images/t3.jpg" alt="">
+							<div class="picbox-bot">
+								<p>玩转广西自驾12日游</p>
+							</div>
+						</div>
+						<div class="price-box">
+							<span class="price">4680<p class="qi">起</p></span>
+							<span class="cfdate">2016-02-12出发</span>
+							<span class="days">12天</span>
+						</div>
+						<div class="clear"></div>
+						<div class="lxxc">
+							<p class="lx">南京—桂林—凭祥—北海—阳朔</p>
+							<p class="jj">尽情领略广西风光，深入体验中越边关风采。</p>
+							<div class="pingjia">
+								<a href="">
+									<img src="../images/xiaoren.jpg" alt="">
+									<span>中国自驾游联盟南京站</span>
+								</a>
+								<div class="pingjia-r">
+									<span class="kanguo">
+										<img src="../images/kanguo.jpg" alt="">
+										<p>36</p>
+									</span>
+									<span class="dianzan">
+										<img src="../images/dianzan.jpg" alt="">
+										<p>0</p>
+									</span>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<ul class="big-box">
+					<li class="box1">
+						<div class="pic-box">
+							<img src="../images/t5.jpg" alt="">
+							<div class="picbox-bot">
+								<p>黔东南深度名俗体验之旅</p>
+							</div>
+						</div>
+						<div class="price-box">
+							<span class="price">4580<p class="qi">起</p></span>
+							<span class="cfdate">2015-01-25出发</span>
+							<span class="days">12天</span>
+						</div>
+						<div class="clear"></div>
+						<div class="lxxc">
+							<p class="lx">  南京—西江—黄果树—荔波—桂林</p>
+							<p class="jj">返璞归真，回归自然。</p>
+							<div class="pingjia">
+								<a href="">
+									<img src="../images/xiaoren.jpg" alt="">
+									<span>中国自驾游联盟南京站</span>
+								</a>
+								<div class="pingjia-r">
+									<span class="kanguo">
+										<img src="../images/kanguo.jpg" alt="">
+										<p>36</p>
+									</span>
+									<span class="dianzan">
+										<img src="../images/dianzan.jpg" alt="">
+										<p>0</p>
+									</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="pic-box">
+							<img src="../images/t8.jpg" alt="">
+							<div class="picbox-bot">
+								<p>滇西北深秋寻美行摄之旅</p>
+							</div>
+						</div>
+						<div class="price-box">
+							<span class="price">3580<p class="qi">起</p></span>
+							<span class="cfdate">2016-01-21出发</span>
+							<span class="days">8天</span>
+						</div>
+						<div class="clear"></div>
+						<div class="lxxc">
+							<p class="lx">昆明—丽江—香格里拉—大理</p>
+							<p class="jj">最经典滇西北行程，体验梦中的香格里拉。</p>
+							<div class="pingjia">
+								<a href="">
+									<img src="../images/xiaoren.jpg" alt="">
+									<span>中国自驾游联盟南京站</span>
+								</a>
+								<div class="pingjia-r">
+									<span class="kanguo">
+										<img src="../images/kanguo.jpg" alt="">
+										<p>36</p>
+									</span>
+									<span class="dianzan">
+										<img src="../images/dianzan.jpg" alt="">
+										<p>0</p>
+									</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="pic-box">
+							<img src="../images/t9.jpg" alt="">
+							<div class="picbox-bot">
+								<p>领略滇西风土人情自驾7日游</p>
+							</div>
+						</div>
+						<div class="price-box">
+							<span class="price">3580<p class="qi">起</p></span>
+							<span class="cfdate">2016-02-16出发</span>
+							<span class="days">8天</span>
+						</div>
+						<div class="clear"></div>
+						<div class="lxxc">
+							<p class="lx">成都—普洱—望天树—傣族园—抚仙湖</p>
+							<p class="jj">大理双廊洱海、腾冲银杏</p>
+							<div class="pingjia">
+								<a href="">
+									<img src="../images/xiaoren.jpg" alt="">
+									<span>中国自驾游联盟南京站</span>
+								</a>
+								<div class="pingjia-r">
+									<span class="kanguo">
+										<img src="../images/kanguo.jpg" alt="">
+										<p>36</p>
+									</span>
+									<span class="dianzan">
+										<img src="../images/dianzan.jpg" alt="">
+										<p>0</p>
+									</span>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<ul class="big-box">
+					<li class="box1">
+						<div class="pic-box">
+							<img src="../images/t11.jpg" alt="">
+							<div class="picbox-bot">
+								<p>长白山雪乡冰雪温泉9日自驾</p>
+							</div>
+						</div>
+						<div class="price-box">
+							<span class="price">4980<p class="qi">起</p></span>
+							<span class="cfdate">2016-02-26出发</span>
+							<span class="days">9天</span>
+						</div>
+						<div class="clear"></div>
+						<div class="lxxc">
+							<p class="lx">重庆—长白山—敦化—雪乡—哈尔滨</p>
+							<p class="jj">梦幻雪乡,北国童话</p>
+							<div class="pingjia">
+								<a href="">
+									<img src="../images/xiaoren.jpg" alt="">
+									<span>中国自驾游联盟南京站</span>
+								</a>
+								<div class="pingjia-r">
+									<span class="kanguo">
+										<img src="../images/kanguo.jpg" alt="">
+										<p>36</p>
+									</span>
+									<span class="dianzan">
+										<img src="../images/dianzan.jpg" alt="">
+										<p>0</p>
+									</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="pic-box">
+							<img src="../images/ter8.jpg" alt="">
+							<div class="picbox-bot">
+								<p>舌尖上的查干湖冬捕美食之旅</p>
+							</div>
+						</div>
+						<div class="price-box">
+							<span class="price">3280<p class="qi">起</p></span>
+							<span class="cfdate">2016-02-20出发</span>
+							<span class="days">6天</span>
+						</div>
+						<div class="clear"></div>
+						<div class="lxxc">
+							<p class="lx">北京—松原市—雾凇岛—雪谷—雪乡</p>
+							<p class="jj">体验如同童话世界一样的美景。</p>
+							<div class="pingjia">
+								<a href="">
+									<img src="../images/xiaoren.jpg" alt="">
+									<span>中国自驾游联盟南京站</span>
+								</a>
+								<div class="pingjia-r">
+									<span class="kanguo">
+										<img src="../images/kanguo.jpg" alt="">
+										<p>36</p>
+									</span>
+									<span class="dianzan">
+										<img src="../images/dianzan.jpg" alt="">
+										<p>0</p>
+									</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="pic-box">
+							<img src="../images/ter9.jpg" alt="">
+							<div class="picbox-bot">
+								<p> 贵州黄果树·南江大峡谷6日自驾</p>
+							</div>
+						</div>
+						<div class="price-box">
+							<span class="price">2380<p class="qi">起</p></span>
+							<span class="cfdate">2016-02-11出发</span>
+							<span class="days">6天</span>
+						</div>
+						<div class="clear"></div>
+						<div class="lxxc">
+							<p class="lx">成都—遵义—贵阳—黄果树—赤水</p>
+							<p class="jj">黄果树、南江大峡谷、龙宫、赤水</p>
+							<div class="pingjia">
+								<a href="">
+									<img src="../images/xiaoren.jpg" alt="">
+									<span>中国自驾游联盟南京站</span>
+								</a>
+								<div class="pingjia-r">
+									<span class="kanguo">
+										<img src="../images/kanguo.jpg" alt="">
+										<p>36</p>
+									</span>
+									<span class="dianzan">
+										<img src="../images/dianzan.jpg" alt="">
+										<p>0</p>
+									</span>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<ul class="big-box">
+					<li class="box1">
+						<div class="pic-box">
+							<img src="../images/t10.jpg" alt="">
+							<div class="picbox-bot">
+								<p class="jiazhou">冬韵多彩九寨沟3日自驾</p>
+							</div>
+						</div>
+						<div class="price-box">
+							<span class="price">1880<p class="qi">起</p></span>
+							<span class="cfdate">2016-01-21出发</span>
+							<span class="days">5天</span>
+						</div>
+						<div class="clear"></div>
+						<div class="lxxc">
+							<p class="lx"> 重庆—广元—文县—九寨沟—都江堰</p>
+							<p class="jj">走进童话冰雪世界</p>
+							<div class="pingjia">
+								<a href="">
+									<img src="../images/xiaoren.jpg" alt="">
+									<span>中国自驾游联盟南京站</span>
+								</a>
+								<div class="pingjia-r">
+									<span class="kanguo">
+										<img src="../images/kanguo.jpg" alt="">
+										<p>36</p>
+									</span>
+									<span class="dianzan">
+										<img src="../images/dianzan.jpg" alt="">
+										<p>0</p>
+									</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="pic-box">
+							<img src="../images/tt3.jpg" alt="">
+							<div class="picbox-bot">
+								<p>海南海天盛筵环岛7天自驾之旅</p>
+							</div>
+						</div>
+						<div class="price-box">
+							<span class="price">3980<p class="qi">起</p></span>
+							<span class="cfdate">2016-01-11出发</span>
+							<span class="days">7天</span>
+						</div>
+						<div class="clear"></div>
+						<div class="lxxc">
+							<p class="lx">海口—文昌—海棠湾—三亚—乐东</p>
+							<p class="jj">深度环岛自驾体验.</p>
+							<div class="pingjia">
+								<a href="">
+									<img src="../images/xiaoren.jpg" alt="">
+									<span>中国自驾游联盟南京站</span>
+								</a>
+								<div class="pingjia-r">
+									<span class="kanguo">
+										<img src="../images/kanguo.jpg" alt="">
+										<p>36</p>
+									</span>
+									<span class="dianzan">
+										<img src="../images/dianzan.jpg" alt="">
+										<p>0</p>
+									</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="pic-box">
+							<img src="../images/langya.jpg" alt="">
+							<div class="picbox-bot">
+								<p>寻梦琅琊 探秘琅琊台4日自驾</p>
+							</div>
+						</div>
+						<div class="price-box">
+							<span class="price">1580<p class="qi">起</p></span>
+							<span class="cfdate">2016-01-16出发</span>
+							<span class="days">4天</span>
+						</div>
+						<div class="clear"></div>
+						<div class="lxxc">
+							<p class="lx">北京—台儿庄—琅琊台—东营—北京</p>
+							<p class="jj">寻梦琅琊，探秘琅琊台。</p>
+							<div class="pingjia">
+								<a href="">
+									<img src="../images/xiaoren.jpg" alt="">
+									<span>中国自驾游联盟南京站</span>
+								</a>
+								<div class="pingjia-r">
+									<span class="kanguo">
+										<img src="../images/kanguo.jpg" alt="">
+										<p>36</p>
+									</span>
+									<span class="dianzan">
+										<img src="../images/dianzan.jpg" alt="">
+										<p>0</p>
+									</span>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="main-bot-li">
+				<ul>
+					<li><a href="">&laquo;</a></li>
+					<li><a href=""><</a></li>
+					<li><a href="">1</a></li>
+					<li><a href="">2</a></li>
+					<li><a href="">3</a></li>
+					<li><a href="">4</a></li>
+					<li><a href="">></a></li>
+					<li><a href="">&raquo;</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="foot-top">
+			<div class="f-t-inner">
+				<ul class="contact">
+					<li><a href="">人民交通出版社</a></li>
+					<li><a href="">爱自驾</a></li>
+					<li><a href="">联系我们</a></li>
+					<li><a href="">友情链接</a></li>
+					<li><a href="">爱自驾品牌店</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div class="foot-bot">
+			<div class="f-b-inner">
+				<p>人民交通出版社股份有限公司&nbsp&nbsp京ICP备I5018898号-1</p>
+			</div>
+		</div>
+	</div>
+			
+	<script src="../script/jquery.js"></script>
+	<script src="../script/bootstrap/js/bootstrap.min.js"></script>	
+	 <script>
+	$(".denglu4-1-2").css({"background":"line-through"})
+	</script>
+	<script type="text/javascript">
+		window._bd_share_config = {
+		common : {
+			bdText : '自定义分享内容',	
+			bdDesc : '自定义分享摘要',	
+			bdUrl : '自定义分享url地址', 	
+			bdPic : '自定义分享图片'
+		},
+		share : [{
+			"bdSize" : 16
+		}],
+		slide : [{	   
+			bdImg : 0,
+			bdPos : "right",
+			bdTop : 100
+		}],
+		image : [{
+			viewType : 'list',
+			viewPos : 'top',
+			viewColor : 'black',
+			viewSize : '16',
+			viewList : ['tsina']
+		}],
+	}
+	with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
+
+
+	$(".dianzan img").click(function(){
+		var num=$(this).next().text();
+		if(num==0){
+			$(this).next().text(1);
+		}else if(num==1){
+			$(this).next().text(0);
+		}
+	})
+		$(".lxxc").dblclick(function(){
+		if (localStorage.pagecount){
+		 	localStorage.pagecount=Number(localStorage.pagecount) +1;
+ 		}
+		else{
+ 			localStorage.pagecount=1;
+ 		}
+ 		var result=localStorage.pagecount;
+ 		$(this).find(".kanguo p").text(result);
+	})
+	</script>
+	<script type="text/javascript">
+		$(".pic-box img").mouseenter(function(){
+			$(this).css("width","336px").css("height","233px")
+		})
+		$(".pic-box img").mouseleave(function(){
+			$(this).css("width","326px").css("height","223px")
+		})
+	</script>
+</body>
+</body>
+</html>

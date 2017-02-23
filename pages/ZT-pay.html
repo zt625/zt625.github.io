@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="../css/ZT-pay.css">
+	<link rel="stylesheet" type="text/css" href="../css/public.css">
+</head>
+<body>
+	<!-- 开始 -->
+	<div class="header">
+		<div class="head-top">
+			<div class="h-t-inner">
+				<div class="h-t-l">
+					<a href="api.html"><img class="dingwei" src="../images/address.jpg" alt=""></a>
+					<div class="address">
+						<p>北京</p>
+						<span class="lianjie">切换</span>					
+						<ul class="inner-ul">
+							<h5>热搜城市</h5>
+								<li>北京</li>
+								<li>天津</li>
+								<li>河北</li>
+								<li>上海</li>
+								<li>河南</li>
+								<li>山西</li>
+								<li>陕西</li>
+								<li>内蒙</li>			
+						</ul>
+						<script src="../script/jquery.js"></script>
+						<script>
+							$(".inner-ul").hide();
+							$(".lianjie").click(function(){
+								$(".inner-ul").slideToggle(500)
+							})
+							$(".inner-ul li").click(function(){
+								var txt = $(this).text();
+								$(".address p").text(txt)
+
+							})
+						</script>
+					</div>
+					<div class="app">
+						<img class="appi" src="../images/phone.jpg" alt="">
+						<a href="">下载手机APP</a>
+					</div>
+				</div>
+				<div class="h-t-r">
+					<div class="dlfs">
+						<a class="qq" href=""javascript:;" onclick="return window.open('https://graph.qq.com/oauth2.0/authorize?client_id=101044974&amp;response_type=token&amp;scope=all&amp;redirect_uri=http%3A%2F%2Fqzonestyle.gtimg.cn%2Fqzone%2Fopenapi%2Fredirect-1.0.1.html', 'oauth2Login_10800' ,'height=525,width=585, toolbar=no, menubar=no, scrollbars=no, status=no, location=yes, resizable=yes');""><img src="../images/qq.jpg" alt=""></a>
+						<a class="bds_tsina" data-cmd="tsina" href="http://service.weibo.com/share/share.php?url=%E8%87%AA%E5%AE%9A%E4%B9%89%E5%88%86%E4%BA%ABurl%E5%9C%B0%E5%9D%80%230-tsina-1-99248-397232819ff9a47a7b7e80a40613cfe1&title=%E8%87%AA%E5%AE%9A%E4%B9%89%E5%88%86%E4%BA%AB%E5%86%85%E5%AE%B9&appkey=1343713053&pic=%E8%87%AA%E5%AE%9A%E4%B9%89%E5%88%86%E4%BA%AB%E5%9B%BE%E7%89%87&searchPic=true&sudaref=s.share.baidu.com"><img src="../images/web.jpg" alt=""></a>
+					</div>
+					<ul class="caozuo">
+						<img src="../images/xiaotoux.jpg" alt="">
+						<img src="../images/xianludingzhi.jpg" alt="">
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="head-bot">
+			<div class="h-b-inner">
+				<div class="logo">
+					<img src="../images/logo.jpg" alt="">
+				</div>
+				<div class="h-b-r">
+					<ul class="liebiao">
+						<li><a href="../index.html">首页</a></li>
+						<li><a href="WZQ-index2.html">目的地</a></li>
+						<li><a href="ZM-indexjnlby.html">线路</a></li>
+						<li><a href="REN-index2.html">订制</a></li>
+						<li><a class="zjt" href="ZM-indexjnlby.html">自驾团</a></li>
+						<li><a href="#">摄影</a></li>
+						<li><a href="ZM-index.html">互动</a></li>
+						<li><a href="WZQ-index1.html">精选</a></li>
+						<li><a href="WZQ-index.html">预订</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="top-box"></div>
+	<div class="container">
+		<div class="container-inner">
+			<div class="route-p">
+				<p>自驾团  >  境内  >  云南落地自驾行摄之旅  >  我要报名  >  在线支付</p>
+			</div>
+			<div class="route-line">
+				<div class="line"></div>
+				<div class="line-r-1 line-r">
+					<img src="../images/true.jpg" alt="" class="line-r-1-img">
+				</div>
+				<div class="line-r-2 line-r"><p><img src="../images/true.jpg" alt="" class="line-r-2-img" ></p></div>
+				<div class="line-r-3 line-r"><p>3</p></div>
+				<div class="line-r-4 line-r"><p>4</p></div>
+				<p class="luxian luxian-1">选择路线</p>
+				<p class="luxian luxian-2">填写订单</p>
+				<p class="luxian luxian-3">在线支付</p>
+				<p class="luxian luxian-4">付款成功</p>
+			</div>
+			<div class="pay">
+				<div class="pay-box">
+					<img src="../images/pay.jpg" alt="">
+				</div>
+				<p class="pay-p1">提交成功，请您于<span class="pay-p1-sp-1"><span class="hours">23</span>时<span class="minutes">59</span>分<span class="seconds">59</span>秒内</span>完成支付 <span class="pay-p1-sp-2">(逾期订单将被取消)</span></p>
+				<p class="pay-p2">应付金额：￥5280</p>
+			</div>
+			<div class="choose">
+				<p class="choose-p">请选择支付方式</p>
+			</div>
+			<div class="choose-pay">
+				<div class="choose-pay1 pay-one">
+					<p class="pay-one-p1">支付宝支付</p>
+					<div class="pay-one-pic1">
+						<img src="../images/zhifubao.jpg" alt="">
+					</div>
+					<p class="pay-one-p2">快捷方便</p>
+					
+						
+					<label for="" class="radio1">
+						<input type="radio" name="name" class="radio-size">
+					</label>
+					 
+					<div class="pay-one-pic2">
+						<img src="../images/jian.jpg" alt="">
+					</div>
+				</div>
+				<div class="choose-pay1 pay-two">
+					<p class="pay-two-p">微信支付</p>
+					<div class="pay-two-pic">
+						<img src="../images/weixin.jpg" alt="">
+					</div>
+					<label for="" class="radio2">
+						<input type="radio" name="name" class="radio-size">
+					</label>
+				</div>
+				<div class="choose-pay1 pay-thi">
+					<p class="pay-thi-p">银联支付</p>
+					<div class="pay-thi-pic">
+						<img src="../images/yinlian.jpg" alt="">
+					</div>
+					<label for="" class="radio3">
+						<input type="radio" name="name" class="radio-size">
+					</label>
+				</div>
+			</div>
+			<div class="true-pay">
+				<p class="true-pay-p">实付金额：<span>￥5280</span></p>
+				<div class="pay-click">
+					<p>确认并支付</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="foot-top">
+			<div class="f-t-inner">
+				<ul class="contact">
+					<li><a href="">人民交通出版社</a></li>
+					<li><a href="">爱自驾</a></li>
+					<li><a href="">联系我们</a></li>
+					<li><a href="">友情链接</a></li>
+					<li><a href="">爱自驾品牌店</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div class="foot-bot">
+			<div class="f-b-inner">
+				<p>人民交通出版社股份有限公司&nbsp&nbsp京ICP备I5018898号-1</p>
+			</div>
+		</div>
+	</div>
+	<script src="../script/jquery.js"></script>
+	 <script>
+	$(".denglu4-1-2").css({"background":"line-through"})
+	var h=$(".hours").text();
+	var m=$(".minutes").text();
+	var s=$(".seconds").text();
+	function run(){
+	            --s;
+	    if(s<0){
+	            --m; s=59; 
+	            }
+	    if(m<0){
+	            --h;m=59;  
+	            }
+	    if(h<0){        
+	            s=0;m=0;     
+	        	}
+	    $(".hours").text(h);
+		$(".minutes").text(m);
+		$(".seconds").text(s);    	
+    }  
+	setInterval(run,1000); 
+	</script>
+	<script type="text/javascript">
+		window._bd_share_config = {
+		common : {
+			bdText : '自定义分享内容',	
+			bdDesc : '自定义分享摘要',	
+			bdUrl : '自定义分享url地址', 	
+			bdPic : '自定义分享图片'
+		},
+		share : [{
+			"bdSize" : 16
+		}],
+		slide : [{	   
+			bdImg : 0,
+			bdPos : "right",
+			bdTop : 100
+		}],
+		image : [{
+			viewType : 'list',
+			viewPos : 'top',
+			viewColor : 'black',
+			viewSize : '16',
+			viewList : ['tsina']
+		}],
+	}
+	with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
+	</script>
+</body>
+</html>

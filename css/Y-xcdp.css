@@ -1,0 +1,90 @@
+.modal-content{
+		margin-right: 200px;
+		width: 860px;
+		height: 570px;
+		background-color: white;
+		display: block;
+ 		margin-left: auto;
+ 		margin-right: auto;
+	}		
+	 .modal-content .close{
+		margin-top: 26px;
+		margin-right: 30px;
+
+	} 
+	 .modal-content .dian1{
+		margin-top: 40px;
+		margin-left: 250px;
+		font-family: 微软雅黑;
+	}
+	 .modal-content .dian2{
+		width: 881px;
+		height: 294px;
+		margin-top: 45px;
+		margin-left: 52px;
+	}
+	.modal-content .dian2 .dian2-1{
+		float: left;
+		width: 500px;
+		height: 294px;
+	}
+	.modal-content .dian2 .dian2-1 .dian2-1-1{
+		width: 500px;
+		height: 294px;
+	}
+	 .modal-content .dian2 .dian2-2{
+		width: 331px;
+		float: left;
+		height: 294px;
+	}
+	 .modal-content .dian2 .dian2-2 .dian2-1-p{
+		font-family:微软雅黑;
+	}
+	.modal-content .dian2 .dian2-2 .dian2-2-1{
+		margin-left: 26px;
+		margin-top: 33px;
+
+	}
+	 .modal-content .dian2 .dian2-2 .dian2-2-2{
+		margin-left: 26px;
+		margin-top: 33px;
+	}
+	 .modal-content .dian2 .dian2-2 .dian2-2-3{
+		margin-left: 26px;
+		margin-top: 33px;
+	}
+	.modal-content .dian3{
+		width: 500px;
+		height: 65px;
+		border:1px solid #e8e8e8;
+		margin-left: 53px;
+		/*margin-top: -3px;*/
+	}
+	 .modal-content .dian3-1{
+		/*margin-top: -3px;*/
+	}
+	 .modal-content .dian3 .dian3-2{
+		margin-left: 8px;
+		margin-top: -3px;
+	}
+	 .modal-content .dian4{
+		margin-left: 440px;
+		margin-top: 25px;
+	} 
+	 .modal-content .dian3 p{
+		margin-top: -41px;
+		margin-left: 178px;
+		font-family: 微软雅黑;
+	}
+	 .modal-content .dian2 .dian2-2 .dian2-2-4{
+		margin-left: 26px;
+		margin-top: 27px;
+		float: left;
+	}
+	.modal-content .dian2 .dian2-2 .dian2-2-4 .my-rating{
+		float: right;
+		margin-left: 16px;
+
+
+
+	}

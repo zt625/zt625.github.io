@@ -1,0 +1,569 @@
+	#myModal .modal-content{
+		width: 800px;
+		height: 1700px;
+		background-position: white;
+	}
+	.modal-content .ding1{
+		font-family: 微软雅黑;
+		margin-left: 350px;
+		font-size: 24px;
+		margin-top: 26px;
+		color: #d2d2d2;
+	}
+	.modal-content .close{
+		margin-top: 10px;
+		margin-right: 20px;
+	}
+	.modal-content .ding2{
+		border-top:1px solid #d2d2d2;
+		width: 798px;
+		margin-top: 38px;
+	}
+	.modal-content .ding3{
+		height: 30px;
+		margin-top: 31px;
+	}
+	.modal-content .ding3 .ding3-1{
+		font-family: 微软雅黑;
+		font-size: 22px;
+		float: left;
+		margin-left: 25px;
+	}
+	.modal-content .ding3 .ding3-2{
+		color: #ea5023;
+		margin-left: 22px;
+		font-size: 14px;
+	}
+	.modal-content .ding3 .ding3-3{
+		font-size: 26px;
+		color: #ea5023;
+	}
+	.modal-content .ding4{
+		width: 798px;
+		height: 55px;
+		background-image: url(../images/bai.jpg);
+		border-top:1px solid #d2d2d2;
+		margin-top: 28px;
+	}
+	.modal-content .ding4 .ding4-1{
+		font-family: 微软雅黑;
+		font-size: 22px;
+		float: left;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	.modal-content .ding5{
+		margin-top: -10px;
+	}
+	.modal-content .ding5-1{
+		float: left;
+		font-family: 微软雅黑;
+		font-size: 18px;
+		float: left;
+		margin-left: 25px;
+		margin-right: 15px;
+	}
+	.modal-content .ding5-2{
+		margin-left: 25px;
+		margin-top: 31px;
+		font-size: 18px;
+		font-family: 微软雅黑;
+		width: 500px;
+	}
+	.modal-content .ding6{
+		margin-top: 10px;
+	}
+	.modal-content .ding6-1{
+		font-family: 微软雅黑;
+		font-size: 18px;
+		float: left;
+		margin-left: 25px;
+		margin-right: 15px;
+	}
+	.modal-content .ding6-2{
+		margin-top: 31px;
+		font-size: 18px;
+		font-family: 微软雅黑;
+		width: 500px;
+		margin-left: 18px;
+	}
+	.modal-content .ding7{
+		margin-top: 10px;
+	}
+	.modal-content .ding7-1{
+		font-family: 微软雅黑;
+		font-size: 18px;
+		float: left;
+		margin-left: 25px;
+		margin-right: 15px;
+	}
+	.modal-content .ding7-2{
+		margin-left: 20px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .ding7-3{
+		margin-left: 170px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .ding7-4{
+		margin-left: 30px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .ding8{
+		margin-top: 10px;
+	}
+	.modal-content .ding8 .ding8-1{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content  .ding8 .ding8-2{
+		margin-left: 20px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .ding9{
+		border-top:1px solid #d2d2d2;
+		width: 798px;
+		margin-top: 20px;
+	}
+	.modal-content .ding10{
+		width: 798px;
+		height: 55px;
+		background-image: url(../images/bai.jpg);
+		border-top:1px solid #d2d2d2;
+		margin-top: 28px;
+	}
+	.modal-content .ding10 .ding10-1{
+		font-family: 微软雅黑;
+		font-size: 22px;
+		float: left;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	.modal-content .ding11 .ding11-1{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .ding11 .ding11-2{
+		margin-left: 110px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+
+	}
+	.modal-content .ding11 .ding11-3{
+		margin-left: 150px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+
+	}
+	.modal-content .ding11 .ding11-4{
+		margin-left: 80px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .ding12{
+		margin-top: 10px;
+	}
+	.modal-content .ding12 .ding12-1{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .ding12 .ding12-2{
+		margin-left: 73px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .ding12 .ding12-3{
+		margin-left: 90px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .ding12 .ding12-4{
+		font-family: 微软雅黑;
+		font-size: 18px;
+		margin-left: 10px;
+	}
+	.modal-content .ding13{
+		border-top:1px solid #d2d2d2;
+		width: 798px;
+		margin-top: 20px;
+	}
+	.modal-content .ding14{
+		width: 798px;
+		height: 55px;
+		background-image: url(../images/bai.jpg);
+		border-top:1px solid #d2d2d2;
+		margin-top: 28px;
+	}
+	.modal-content .ding14 .ding14-1{
+		font-family: 微软雅黑;
+		font-size: 22px;
+		float: left;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	.modal-content .ding15{
+		margin-top: 10px;
+	}
+	.modal-content .ding15 .ding15-1{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 18px
+	}
+	.modal-content .ding15 .ding15-1-1{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 18px	
+	}
+	.modal-content .ding15 .ding15-1-2{
+		margin-left: 45px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .ding15 .ding15-1-3{
+		margin-left: 90px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .ding15 .ding15-1-4{
+		margin-left: 90px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content  .ding15-2{
+		margin-top: 20px;
+	}
+	.modal-content .ding15-2-4{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 18px
+	}
+	.modal-content .ding15-2-1{
+		margin-left: 80px;
+		font-family: 微软雅黑;
+		font-size: 18px	
+	}
+	.modal-content  .ding15-2-2{
+		margin-left: 105px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content  .ding15-2{
+		margin-top: 10px;
+	}
+	.modal-content  .ding15-3{
+		margin-top: 10px;
+	}
+	.modal-content  .ding15-2-3{
+		margin-left: 75px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content  .ding15-3-1{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 18px
+	}
+	.modal-content  .ding15-3-2{
+		margin-left: 80px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .ding15-3-3{
+		margin-left: 88px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .dan2{
+		border-top:1px dashed #d2d2d2;
+		margin-top: 30px;
+
+	}
+	.modal-content .dan1{
+		margin-top: 30px;
+	}
+	.modal-content .dan1 .dan1-1{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 18px
+	}
+	.modal-content .dan1 .dan1-1-1{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 18px	
+	}
+	.modal-content .dan1 .dan1-1-2{
+		margin-left: 45px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .dan1 .dan1-1-3{
+		margin-left: 90px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .dan1 .dan1-1-4{
+		margin-left: 90px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content  .dan1-2{
+		margin-top: 20px;
+	}
+	.modal-content .dan1-2-4{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 18px
+	}
+	.modal-content .dan1-2-1{
+		margin-left: 80px;
+		font-family: 微软雅黑;
+		font-size: 18px	
+	}
+	.modal-content  .dan1-2-2{
+		margin-left: 105px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content  .dan1-2{
+		margin-top: 10px;
+	}
+	.modal-content  .dan1-3{
+		margin-top: 10px;
+	}
+	.modal-content  .dan1-2-3{
+		margin-left: 75px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content  .dan1-3-1{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 18px
+	}
+	.modal-content  .dan1-3-2{
+		margin-left: 80px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .dan1-3-3{
+		margin-left: 88px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .bao1{
+		border-top:1px solid #d2d2d2;
+		margin-top: 30px;
+
+	}
+	.modal-content .bao2{
+		width: 798px;
+		height: 55px;
+		background-image: url(../images/bai.jpg);
+		border-top:1px solid #d2d2d2;
+		margin-top: 28px;
+	}
+	.modal-content .bao2 .bao2-1{
+		font-family: 微软雅黑;
+		font-size: 22px;
+		float: left;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	.modal-content .bao3{
+		margin-top: 10px;
+	}
+	.modal-content .bao3 .bao3-1{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 18px
+	}
+	.modal-content .bao3 .bao3-1-1{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 18px	
+	}
+	.modal-content .bao3 .bao3-1-2{
+		margin-left: 45px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .bao3 .bao3-1-3{
+		color: #ea5023;
+		margin-left: 200px;
+		font-family: 微软雅黑;
+		font-size: 14px;
+	}
+	.modal-content .bao3 .bao3-1-4{
+		/*margin-left: 90px;*/
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content  .bao3-2{
+		margin-top: 20px;
+	}
+	.modal-content .bao3-2-4{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 18px
+	}
+	.modal-content .bao3-2-1{
+		margin-left: 45px;
+		font-family: 微软雅黑;
+		font-size: 18px
+	}
+	.modal-content  .bao3-2-2{
+		color: #ea5023;
+		margin-left: 200px;
+		font-family: 微软雅黑;
+		font-size: 14px;	}
+	.modal-content  .bao3-2{
+		margin-top: 10px;
+	}
+	.modal-content  .bao3-3{
+		margin-top: 10px;
+	}
+	.modal-content  .bao3-2-3{
+		font-family: 微软雅黑;
+		font-size: 18px;	}
+	.modal-content  .bao3-3-1{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 18px
+	}
+	.modal-content  .bao3-3-2{
+		
+
+	}
+	.modal-content .bao3-3-3{
+		margin-left: 88px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .yu1{
+		border-top:1px solid #d2d2d2;
+		margin-top: 30px;
+
+	}
+	.modal-content .yu2{
+		width: 798px;
+		height: 55px;
+		background-image: url(../images/bai.jpg);
+		border-top:1px solid #d2d2d2;
+		margin-top: 28px;
+	}
+	.modal-content .yu2 .yu2-1{
+		font-family: 微软雅黑;
+		font-size: 22px;
+		float: left;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	.modal-content .yu3{
+		margin-top: 10px;
+	}
+	.modal-content .yu3 .yu3-1{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 18px
+	}
+	.modal-content .yu3 .yu3-1-1{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 18px	
+	}
+	.modal-content .yu3 .yu3-1-2{
+		margin-left: 45px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .yu3 .yu3-1-3{
+		margin-left: 50px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content .yu3 .yu3-1-4{
+		/*margin-left: 90px;*/
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content  .yu3-2{
+		margin-top: 20px;
+	}
+	.modal-content .yu3-2-4{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 18px
+	}
+	.modal-content .yu3-2-1{
+		margin-left: 45px;
+		font-family: 微软雅黑;
+		font-size: 18px
+	}
+	.modal-content  .yu3-2-2{
+		margin-left: 90px;
+		font-family: 微软雅黑;
+		font-size: 18px;
+	}
+	.modal-content  .yu3-2{
+		margin-top: 10px;
+	}
+	.modal-content  .yu3-3{
+		margin-top: 10px;
+	}
+	.modal-content  .yu3-2-3{
+		font-family: 微软雅黑;
+		font-size: 18px;	}
+	.modal-content  .yu3-3-1{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 18px
+	}
+	.modal-content  .yu3-3-2{
+		margin-left: 45px;
+		font-family: 微软雅黑;
+		font-size: 18px
+
+	}
+	.modal-content .yu4{
+		border-top:1px solid #d2d2d2;
+		margin-top: 30px;
+
+	}
+	.modal-content  .yu4-1{
+		width: 798px;
+		height: 55px;
+		background-image: url(../images/bai.jpg);
+		border-top:1px solid #d2d2d2;
+		margin-top: 28px;
+	}
+	.modal-content  .yu4-1-1{
+		font-family: 微软雅黑;
+		font-size: 22px;
+		float: left;
+		margin-left: 25px;
+		margin-top: 10px;
+	}
+	.modal-content  .yu4-1-2{
+		margin-left: 24px;
+		font-family: 微软雅黑;
+		font-size: 15px;
+		margin-top:30px;
+	}
+	.modal-content .wei1{
+		border-top:1px solid #d2d2d2;
+		margin-top: 30px;
+	}
+	.modal-content .wei2{
+		width: 52px;
+		height: 28px;
+		margin-top: 30px;
+		float: right;
+		margin-right: 30px;
+	}

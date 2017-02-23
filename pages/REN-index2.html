@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="../css/public.css">
+	<link rel="stylesheet" type="text/css" href="../css/REN-index2.css">
+	<link rel="stylesheet" href="../script/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/Y-nvip.css">
+	<link rel="stylesheet" href="../css/Y-vip.css">
+</head>
+<body>
+	<div class="modal fade" id="myModal1">
+		<div class="modal-dialog">
+				<div class="modal-body">
+					<div class="modal-content">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<img class="top-logo" src="../images/xiaologo.jpg" alt="">
+				<div class="denglu">
+					<form action="">
+					<input  class="denglu1" id="denglu1-1" type="text" placeholder="邮箱/手机/用户名">
+					<input type="password"  class="denglu2" id="denglu2-1"placeholder="密码">
+					<img class="denglu3" src="../images/denglu.jpg" alt=""><a href="https:baidu.com"></a></img></form>
+					<div class="denglu4">
+					<a href="https:baidu.com" class="denglu4-1">忘记密码</a>
+					<p class="denglu4-2">还没有账号？<a class="denglu4-2-2" href="https：baidu.com">免费注册</a></p>
+					<div class="others1">
+						<div class="o1"></div>
+						<a class="otherLoad">其他报名方式</a>
+						<div class="o2"></div>
+						</div>
+					
+					<div class="footer1">
+						<img src="../images/ksdenglu.jpg" alt="">
+					</div>
+				</div>
+				</div>
+			</div>
+				</div>
+				<!-- <div class="modal-footer">
+					<button class="btn btn-default" data-dismiss="modal">Close</button>
+					<button class="btn btn-primary">保存</button>
+				</div> -->
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="myModal">
+		<div class="modal-dialog">
+				<div class="modal-body">
+					<div class="modal-content">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<img class="top-logo" src="../images/xiaologo.jpg" alt="">
+						<div class="zhuce"><a href=""><span>用手机注册</span></a></div>
+						<input type="text" class="denglu1" placeholder="请输入邮箱">
+						<input type="text" class="denglu2" placeholder="用户名,4-16个字符,字母/中文/数字">
+						<input type="text" class="denglu3" placeholder="设置密码">
+						<input type="text" class="denglu4" placeholder="输入密码">
+						<input type="text" class="denglu5" placeholder="输入邀请码,可不填">
+						<div class="denglu5-1">注册视为同意<span>《爱自驾用户使用协议》</span></div>
+						<div class="denglu5-2"><img src="../images/zhuce.jpg" alt=""></div>
+						<div class="others">
+						<div class="o1"></div>
+						<a class="otherLoad">其他报名方式</a>
+						<div class="o2"></div>
+						</div>
+						<div class="footer"><img src="../images/ksdenglu.jpg" alt="">
+						</div>	
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- header开始 -->
+	<div class="header">
+		<div class="head-top">
+			<div class="h-t-inner">
+				<div class="h-t-l">
+					<a href="api.html"><img class="dingwei" src="../images/address.jpg" alt=""></a>
+					<div class="address">
+						<p>北京</p>
+						<span class="lianjie">切换</span>					
+						<ul class="inner-ul">
+							<h5>热搜城市</h5>
+								<li>北京</li>
+								<li>天津</li>
+								<li>河北</li>
+								<li>上海</li>
+								<li>河南</li>
+								<li>山西</li>
+								<li>陕西</li>
+								<li>内蒙</li>			
+						</ul>
+						<script src="../script/jquery.js"></script>
+						<script>
+							$(".inner-ul").hide();
+							$(".lianjie").click(function(){
+								$(".inner-ul").slideToggle(500)
+							})
+							$(".inner-ul li").click(function(){
+								var txt = $(this).text();
+								$(".address p").text(txt)
+
+							})
+						</script>
+					</div>
+					<div class="app">
+						<img class="appi" src="../images/phone.jpg" alt="">
+						<a href="">下载手机APP</a>
+					</div>
+				</div>
+				<div class="h-t-r">
+					<div class="dlfs">
+						<a class="qq" href=""javascript:;" onclick="return window.open('https://graph.qq.com/oauth2.0/authorize?client_id=101044974&amp;response_type=token&amp;scope=all&amp;redirect_uri=http%3A%2F%2Fqzonestyle.gtimg.cn%2Fqzone%2Fopenapi%2Fredirect-1.0.1.html', 'oauth2Login_10800' ,'height=525,width=585, toolbar=no, menubar=no, scrollbars=no, status=no, location=yes, resizable=yes');""><img src="../images/qq.jpg" alt=""></a>
+						<a class="bds_tsina" data-cmd="tsina" href="http://service.weibo.com/share/share.php?url=%E8%87%AA%E5%AE%9A%E4%B9%89%E5%88%86%E4%BA%ABurl%E5%9C%B0%E5%9D%80%230-tsina-1-99248-397232819ff9a47a7b7e80a40613cfe1&title=%E8%87%AA%E5%AE%9A%E4%B9%89%E5%88%86%E4%BA%AB%E5%86%85%E5%AE%B9&appkey=1343713053&pic=%E8%87%AA%E5%AE%9A%E4%B9%89%E5%88%86%E4%BA%AB%E5%9B%BE%E7%89%87&searchPic=true&sudaref=s.share.baidu.com"><img src="../images/web.jpg" alt=""></a>
+					</div>
+					<ul class="caozuo">
+						<button class="login"data-toggle="modal" data-target="#myModal1">登录</button>
+						<button class="sign-up"data-toggle="modal" data-target="#myModal">注册</button>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="head-bot">
+			<div class="h-b-inner">
+				<div class="logo">
+					<img src="../images/logo.jpg" alt="">
+				</div>
+				<div class="h-b-r">
+					<ul class="liebiao">
+						<li><a href="../index.html">首页</a></li>
+						<li><a href="WZQ-index2.html">目的地</a></li>
+						<li><a href="ZM-indexjnlby.html">线路</a></li>
+						<li><a href="#">订制</a></li>
+						<li><a class="zjt" href="ZM-indexjnlby.html">自驾团</a></li>
+						<li><a href="#">摄影</a></li>
+						<li><a href="ZM-index.html">互动</a></li>
+						<li><a href="WZQ-index1.html">精选</a></li>
+						<li><a href="WZQ-index.html">预订</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- header结束 -->
+	
+	<!-- banner开始 -->
+	<div class="banner">
+		<img src="../images/ren-index2-ban.jpg" alt="">
+	</div>
+	<!-- banner结束 -->
+	
+	<!-- main开始 -->
+	<div class="main">
+		<div class="main-inner">
+			<form action="">
+				<div class="box1">
+					<div class="xinxi">
+						<img src="../images/lianxiren.jpg" alt="">
+						<span class="lianxi">联系人信息</span>
+						<span class="bitian">(必填)</span>
+					</div>
+					<div class="biaodan">
+						<div class="biaodan1">
+							<p>姓名</p>
+							<p>手机号码</p>
+							<p>邮箱</p>
+						</div>
+						<div class="biaodan2">
+							<input type="text" placeholder="请输入姓名">
+							<input type="text" placeholder="请输入手机号码" id="phone-txt"><span id="phone-info"></span>
+							<input type="text" placeholder="请输入邮箱" id="emtxt"><span id="eminfo"></span>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="box2">
+					<div class="lianxiren">
+						<img src="../images/xinxi.jpg" alt="">
+						<span class="lianxi">联系人信息</span>
+						<span class="bitian">(必填)</span>
+					</div>
+					<div class="biaodan-b2">
+						<div class="biaodan3">
+							<p>出游性质</p>
+							<p>出发地</p>
+							<p>目的地</p>
+							<p>出发日期</p>
+							<p>游玩天数</p>
+							<p>出行人数</p>
+							<p>人均预算</p>
+						</div>
+						<div class="biaodan4">
+							<div class="a-box">
+								<a href="">公司</a>
+								<a href="">个人</a>
+							</div>
+							<div class="b-box">
+								<input type="text" placeholder="上海">
+								<input type="text" placeholder="北京">
+							</div>
+							<div class="date-box">
+								<input type="text" placeholder="最早">
+								<p>~</p>
+								<input type="text" placeholder="最晚">
+							</div>
+							<div class="days-box">
+								<input type="text" class="tianshu" placeholder="请输入">
+								<p>天</p>
+								<input type="checkbox" class="chbox">
+								<p>可适当增减天数</p>
+							</div>
+							<div class="renshu">
+								<input type="text" placeholder=">3">
+								<p>成人</p>
+								<input type="text" placeholder="请输入儿童">
+								<p>儿童</p>
+							</div>
+							<div class="yusuan">
+								<select>
+									<option>请选择按人均计算</option>
+									<option>请选择按团队计算</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="box3">
+					<div class="tese">
+						<img src="../images/tese.jpg" alt="">
+						<span class="tesefuwu">特色服务</span>
+					</div>
+					<div class="tese-r">
+						<div class="xuanxiang">
+							<p>旅行国界</p>
+							<p>行程安排</p>
+							<p>住宿安排</p>
+							<p>我的要求</p>
+						</div>
+						<div class="xuanxiangul">
+							<ul>
+								<li><a class="buxian" href="">不限</a></li>
+								<li><a href="">境内</a></li>
+								<li><a href="">境外</a></li>
+							</ul>
+							<ul>
+								<li><a class="buxian" href="">不限</a></li>
+								<li><a href="">紧凑</a></li>
+								<li><a href="">适中</a></li>
+								<li><a href="">宽松</a></li>
+							</ul>
+							<ul>
+								<li><a class="buxian" href="">不限</a></li>
+								<li><a href="">三星/舒适</a></li>
+								<li><a href="">四星/高档</a></li>
+								<li><a href="">五星/豪华</a></li>
+								<li><a href="">特色住宿</a></li>
+							</ul>
+							<textarea name="" id="yaoqiu" cols="68" rows="10"></textarea>
+						</div>
+						<div class="clear"></div>
+						<button class="btn">提交</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<!-- main结束 -->
+	<!-- footer开始 -->
+	<div class="footer">
+		<div class="foot-top">
+			<div class="f-t-inner">
+				<ul class="contact">
+					<li><a href="">人民交通出版社</a></li>
+					<li><a href="">爱自驾</a></li>
+					<li><a href="">联系我们</a></li>
+					<li><a href="">友情链接</a></li>
+					<li><a href="">爱自驾品牌店</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div class="foot-bot">
+			<div class="f-b-inner">
+				<p>人民交通出版社股份有限公司&nbsp&nbsp京ICP备I5018898号-1</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer结束 -->
+	<script src="../script/jquery.js"></script>
+	<script src="../script/bootstrap/js/bootstrap.min.js"></script>	
+	 <script>
+	$(".denglu4-1-2").css({"background":"line-through"})
+	</script>
+	<!-- 电话号验证 -->
+	<script type="text/javascript">
+		var re=/^[0-9]{11}$/;
+		$("#phone-txt").blur(function(){
+			var txt=$(this).val();
+			var result=re.test(txt);
+			var p=checkinput(result)
+			$("#phone-info").html(p)
+		})
+		function checkinput(bool){
+			var right="<p class='right'>手机号正确</p>";
+			var wrong="<p class='wrong'>请输入正确的手机号</p>";
+			if(bool){
+				return right
+			}else{
+				return wrong
+			}
+		}
+	</script>
+	<!-- 邮箱验证 -->
+	<script type="text/javascript">
+		var re1=/^[0-9a-zA-Z\_]{5,11}\@qq\.com$/;
+		$("#emtxt").blur(function(){
+			var emtxt=$(this).val();
+			var emresult=re1.test(emtxt);
+			var p=checkeminput(emresult)
+			$("#eminfo").html(p)
+		})
+		function checkeminput(bool){
+			var right="<p class='right'>邮箱正确</p>";
+			var wrong="<p class='wrong'>请输入正确的邮箱</p>";
+			if(bool){
+				return right
+			}else{
+				return wrong
+			}
+		}
+	</script>
+	<script>
+		window._bd_share_config = {
+		common : {
+			bdText : '自定义分享内容',	
+			bdDesc : '自定义分享摘要',	
+			bdUrl : '自定义分享url地址', 	
+			bdPic : '自定义分享图片'
+		},
+		share : [{
+			"bdSize" : 16
+		}],
+		slide : [{	   
+			bdImg : 0,
+			bdPos : "right",
+			bdTop : 100
+		}],
+		image : [{
+			viewType : 'list',
+			viewPos : 'top',
+			viewColor : 'black',
+			viewSize : '16',
+			viewList : ['tsina']
+		}],
+	}
+	with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
+	</script>
+</body>
+</html>

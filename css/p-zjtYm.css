@@ -1,0 +1,35 @@
+html body a:link,
+html body a:visited{
+	text-decoration: none;
+}
+
+/*banner部分*/
+.banner #picBox{
+	width: 100%;
+	height: 400px;
+	position:relative;
+}
+.banner #picBox li img{
+	width: 100%;
+	height: 400px;
+}
+.banner #numList{
+	position:absolute;
+	bottom:30px;
+	left: 50%;
+	-webkit-transform:translateX(-50%);
+	z-index:90;
+}
+.banner #numList li{
+	float:left;
+	height:15px;
+	width:15px;
+	background-color: white;
+	border-radius: 10px;
+	margin-left: 45px;
+	cursor: pointer;
+	list-style-type: none;
+}
+.banner #numList .active{
+	background-color: blue;
+}

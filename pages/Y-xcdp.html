@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>订单详情</title>
+	<link rel="stylesheet" href="../script/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../script/201604051543/src/css/star-rating-svg.css">
+	<style>
+	.modal-content{
+		margin-right: 200px;
+		width: 850px;
+		height: 705px;
+		background-color: white;
+		display: block;
+ 		margin-left: auto;
+ 		margin-right: auto;
+	}		
+	.modal-body .modal-content .close{
+		margin-top: 26px;
+		margin-right: 30px;
+
+	} 
+	.modal-body .modal-content .dian1{
+		margin-top: 40px;
+		margin-left: 250px;
+		font-family: 微软雅黑;
+	}
+	.modal-body .modal-content .dian2{
+		width: 881px;
+		height: 294px;
+		margin-top: 45px;
+		margin-left: 52px;
+	}
+	.modal-body .modal-content .dian2 .dian2-1{
+		float: left;
+		width: 500px;
+		height: 294px;
+	}
+	.modal-body .modal-content .dian2 .dian2-1 .dian2-1-1{
+		width: 500px;
+		height: 294px;
+	}
+	.modal-body .modal-content .dian2 .dian2-2{
+		width: 331px;
+		float: left;
+		height: 294px;
+	}
+	.modal-body .modal-content .dian2 .dian2-2 .dian2-1-p{
+		font-family:微软雅黑;
+	}
+	.modal-body .modal-content .dian2 .dian2-2 .dian2-2-1{
+		margin-left: 26px;
+		margin-top: 33px;
+
+	}
+	.modal-body .modal-content .dian2 .dian2-2 .dian2-2-2{
+		margin-left: 26px;
+		margin-top: 33px;
+	}
+	.modal-body .modal-content .dian2 .dian2-2 .dian2-2-3{
+		margin-left: 26px;
+		margin-top: 33px;
+	}
+	.modal-body .modal-content .dian3{
+		width: 500px;
+		height: 65px;
+		border:1px solid #e8e8e8;
+		margin-left: 53px;
+		/*margin-top: -3px;*/
+	}
+	.modal-body .modal-content .dian3-1{
+		/*margin-top: -3px;*/
+	}
+	.modal-body .modal-content .dian3 .dian3-2{
+		margin-left: 8px;
+		margin-top: -3px;
+	}
+	.modal-body .modal-content .dian4{
+		margin-left: 440px;
+		margin-top: 25px;
+	} 
+	.modal-body .modal-content .dian3 p{
+		margin-top: -41px;
+		margin-left: 178px;
+		font-family: 微软雅黑;
+	}
+	.modal-body .modal-content .dian2 .dian2-2 .dian2-2-4{
+		margin-left: 26px;
+		margin-top: 27px;
+		float: left;
+	}
+	.modal-body .modal-content .dian2 .dian2-2 .dian2-2-4 .my-rating{
+		float: right;
+		margin-left: 16px;
+
+
+
+	}
+	</style>
+</head>
+<body>
+	<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">点击出现</button>
+	<div class="modal fade" id="myModal">
+		<div class="modal-dialog modal-lg">
+				<div class="modal-body">
+					<div class="modal-content">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><img src="../images/clone.jpg" alt=""></span></button>
+						<h3 class="dian1">行程点评</h3>
+						<div class="dian2">
+							<!-- 选项卡 -->
+							<div class="dian2-1">
+								<textarea class="form-control" rows="14">
+								</textarea>
+							</div>
+							<div class="dian2-2">
+								<div class="dian2-2-1">
+									<form action="">
+									<span class="dian2-1-p">行程安排:</span>
+									<div class="radio-inline">
+  										<label>
+   											<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>满意
+  										</label>
+									</div>
+									<div class="radio-inline">
+  										<label>
+    										<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">不满意
+  										</label>
+									</div>
+									<div class="radio-inline">
+  										<label>
+    										<input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">一般
+  										</label>
+									</div>
+									</form>	
+								</div>
+								<div class="dian2-2-2">
+									<form action="">
+									<span class="dian2-1-p">住宿餐食:</span>
+									<div class="radio-inline">
+  										<label>
+   											<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>满意
+  										</label>
+									</div>
+									<div class="radio-inline">
+  										<label>
+    										<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">不满意
+  										</label>
+									</div>
+									<div class="radio-inline">
+  										<label>
+    										<input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">一般
+  										</label>
+									</div>
+									</form>	
+								</div>
+								<div class="dian2-2-3">
+									<form action="">
+									<span class="dian2-1-p">旅行交通:</span>
+									<div class="radio-inline">
+  										<label>
+   											<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>满意
+  										</label>
+									</div>
+									<div class="radio-inline">
+  										<label>
+    										<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">不满意
+  										</label>
+									</div>
+									<div class="radio-inline">
+  										<label>
+    										<input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">一般
+  										</label>
+									</div>
+									</form>	
+								</div>
+								<div class="dian2-2-4">
+									<span class="dian2-1-p">综合评价:</span>
+									<div class="my-rating"></div>	
+								</div>
+							</div>						
+						</div>
+						<div class="dian3">
+							<img src="../images/shaitu.jpg" class="dian3-1" alt="">
+							<a href="https:"><img src="../images/jia.jpg" class="dian3-2"alt=""></a> 
+							<p>0/5</p>
+						</div>
+						<div class="dian4"><a href=""><img src="../images/tijiao.jpg" alt=""></a></div>
+
+					</div>
+
+				</div>
+		</div>
+	</div>
+	
+
+	<script src="../script/jquery.js"></script>
+	<script src="../script/bootstrap/js/bootstrap.min.js"></script>	
+	<script src="../script/201604051543/src/jquery.star-rating-svg.js"></script>
+	<script>
+		$(".my-rating").starRating({
+    starSize: 18,
+    callback: function(currentRating, $el){
+        // make a server call here
+    }
+	});
+
+	</script>
+</body>
+</body>
+</html>
